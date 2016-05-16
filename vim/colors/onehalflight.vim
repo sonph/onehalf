@@ -56,7 +56,7 @@ let s:red2 = { "gui": "#ca1243", "cterm": "161", "cterm16": "1" } " Alternate ct
 let s:green = { "gui": "#50a14f", "cterm": "071", "cterm16": "2" }
 let s:yellow = { "gui": "#986801", "cterm": "094", "cterm16": "3" }
 let s:yellow2 = { "gui": "#c18401", "cterm": "136", "cterm16": "3" }
-let s:blue = { "gui": "#4078f2", "cterm": "069", "cterm16": "4" } " Alternate cterm: 75
+let s:blue = { "gui": "#2a60d5", "cterm": "026", "cterm16": "4" } " Alternate cterm: 75
 let s:purple = { "gui": "#a626a4", "cterm": "127", "cterm16": "5" } " Alternate cterm: 176
 let s:cyan = { "gui": "#0184bc", "cterm": "031", "cterm16": "6" } " Alternate cterm: 73
 
