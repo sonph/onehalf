@@ -9,7 +9,7 @@
 "   editors/terminals, and a matching theme for vim-airline.
 " ==============================================================================
 
-set background=dark
+set background=light
 highlight clear
 syntax reset
 
@@ -34,7 +34,7 @@ let colors_name="onehalflight"
 " Bg: #fafafa, 231
 "
 " Comment_fg: #a0a1a7, 247
-" Gutter_fg: #9e9e9e, 247
+" Gutter_fg: #d4d4d4, 252
 " Gutter_bg: #fafafa, 231
 "
 " Cursor_line: #f0f0f0, 255
@@ -48,12 +48,12 @@ hi Normal guifg=#383a42 ctermfg=237 guibg=#fafafa ctermbg=231
 hi NonText guifg=#383a42 ctermfg=237
 
 hi Cursor guifg=#fafafa ctermfg=231 guibg=#0184bc ctermbg=031
-" hi CursorIM
+" hi CursorIM guifg=#383a42 ctermfg=237
 hi CursorColumn guibg=#f0f0f0 ctermbg=255
 hi CursorLine guibg=#f0f0f0 ctermbg=255
 
-hi LineNr guifg=#9e9e9e ctermfg=247 guibg=#fafafa ctermbg=231
-hi CursorLineNr
+hi LineNr guifg=#d4d4d4 ctermfg=252 guibg=#fafafa ctermbg=231
+hi CursorLineNr guifg=#383a42 ctermfg=237
 
 hi DiffAdd guifg=#50a14f ctermfg=071
 hi DiffChange guifg=#c18401 ctermfg=136
@@ -63,9 +63,9 @@ hi DiffText guifg=#0184bc ctermfg=031
 hi IncSearch guifg=#fafafa ctermfg=231 guibg=#c18401 ctermbg=136
 hi Search guifg=#fafafa ctermfg=231 guibg=#c18401 ctermbg=136
 
-hi ErrorMsg
-hi ModeMsg
-hi MoreMsg
+hi ErrorMsg guifg=#383a42 ctermfg=237
+hi ModeMsg guifg=#383a42 ctermfg=237
+hi MoreMsg guifg=#383a42 ctermfg=237
 hi WarningMsg guifg=#e45649 ctermfg=167
 hi Question guifg=#a626a4 ctermfg=127
 
@@ -89,17 +89,17 @@ hi Visual guibg=#BFCEFF ctermbg=153
 hi VisualNOS guibg=#BFCEFF ctermbg=153
 
 hi ColorColumn guibg=#ededed ctermbg=255
-hi Conceal
-hi Directory
+hi Conceal guifg=#383a42 ctermfg=237
+hi Directory guifg=#0184bc ctermfg=031
 hi VertSplit guifg=#f0f0f0 ctermfg=255 guibg=#f0f0f0 ctermbg=255
-hi Folded
-hi FoldColumn
-hi SignColumn
+hi Folded guifg=#383a42 ctermfg=237
+hi FoldColumn guifg=#383a42 ctermfg=237
+hi SignColumn guifg=#383a42 ctermfg=237
 
 hi MatchParen guifg=#0184bc ctermfg=031
 hi SpecialKey guifg=#383a42 ctermfg=237
 hi Title guifg=#50a14f ctermfg=071
-hi WildMenu
+hi WildMenu guifg=#383a42 ctermfg=237
 " }
 
 " Syntax colors {
@@ -118,7 +118,7 @@ hi Statement guifg=#a626a4 ctermfg=127
 hi Conditional guifg=#a626a4 ctermfg=127
 hi Repeat guifg=#a626a4 ctermfg=127
 hi Label guifg=#a626a4 ctermfg=127
-hi Operator
+hi Operator guifg=#383a42 ctermfg=237
 hi Keyword guifg=#e45649 ctermfg=167
 hi Exception guifg=#a626a4 ctermfg=127
 
@@ -134,13 +134,13 @@ hi Structure guifg=#c18401 ctermfg=136
 hi Typedef guifg=#c18401 ctermfg=136
 
 hi Special guifg=#0184bc ctermfg=031
-hi SpecialChar
-hi Tag
-hi Delimiter
-hi SpecialComment
-hi Debug
-hi Underlined
-hi Ignore
+hi SpecialChar guifg=#383a42 ctermfg=237
+hi Tag guifg=#383a42 ctermfg=237
+hi Delimiter guifg=#383a42 ctermfg=237
+hi SpecialComment guifg=#383a42 ctermfg=237
+hi Debug guifg=#383a42 ctermfg=237
+hi Underlined guifg=#383a42 ctermfg=237
+hi Ignore guifg=#383a42 ctermfg=237
 hi Error guifg=#e45649 ctermfg=167 guibg=#fafafa ctermbg=231
 hi Todo guifg=#a626a4 ctermfg=127
 " }
@@ -157,18 +157,18 @@ hi diffRemoved guifg=#e45649 ctermfg=167
 " }
 
 " Git {
-hi gitcommitComment
-hi gitcommitUnmerged guifg=#50a14f ctermfg=071
-hi gitcommitOnBranch
+hi gitcommitComment guifg=#a0a1a7 ctermfg=247
+hi gitcommitUnmerged guifg=#e45649 ctermfg=167
+hi gitcommitOnBranch guifg=#383a42 ctermfg=237
 hi gitcommitBranch guifg=#a626a4 ctermfg=127
 hi gitcommitDiscardedType guifg=#e45649 ctermfg=167
 hi gitcommitSelectedType guifg=#50a14f ctermfg=071
-hi gitcommitHeader
+hi gitcommitHeader guifg=#383a42 ctermfg=237
 hi gitcommitUntrackedFile guifg=#0997b3 ctermfg=031
 hi gitcommitDiscardedFile guifg=#e45649 ctermfg=167
 hi gitcommitSelectedFile guifg=#50a14f ctermfg=071
 hi gitcommitUnmergedFile guifg=#c18401 ctermfg=136
-hi gitcommitFile
+hi gitcommitFile guifg=#383a42 ctermfg=237
 hi link gitcommitNoBranch gitcommitBranch
 hi link gitcommitUntracked gitcommitComment
 hi link gitcommitDiscarded gitcommitComment
