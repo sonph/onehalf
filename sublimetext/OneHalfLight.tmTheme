@@ -76,6 +76,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a0a1a7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Text</string>
 			<key>scope</key>
 			<string>variable.parameter.function</string>
@@ -473,7 +484,7 @@
 				<key>background</key>
 				<string>#e06c75</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#fafafa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -486,7 +497,7 @@
 				<key>background</key>
 				<string>#e5c07b</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#fafafa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -499,7 +510,7 @@
 				<key>background</key>
 				<string>#e5c07b</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#fafafa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -512,262 +523,7 @@
 				<key>background</key>
 				<string>#c678dd</string>
 				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Json key</string>
-			<key>scope</key>
-			<string>source.json                           meta.structure.dictionary.json                              string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Json value</string>
-			<key>scope</key>
-			<string>source.json                       meta.structure.dictionary.json                           meta.structure.dictionary.value.json                       string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>json sub key</string>
-			<key>scope</key>
-			<string>source.json                           meta.structure.dictionary.json                          meta.structure.dictionary.value.json                        meta.structure.dictionary.json                      string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Json sub value</string>
-			<key>scope</key>
-			<string>source.json                       meta.structure.dictionary.json                        meta.structure.dictionary.value.json                       meta.structure.dictionary.json                          meta.structure.dictionary.value.json                            string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>laravel blade tag</string>
-			<key>scope</key>
-			<string>text.html.laravel-blade                        source.php.embedded.line.html                     entity.name.tag.laravel-blade</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>laravel blade @</string>
-			<key>scope</key>
-			<string>text.html.laravel-blade                         source.php.embedded.line.html                    support.constant.laravel-blade</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>python function parameter</string>
-			<key>scope</key>
-			<string>source.python meta.function.python meta.function.parameters.python variable.parameter.function.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>python meta function</string>
-			<key>scope</key>
-			<string>source.python meta.function-call.python support.type.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>python logical keyword</string>
-			<key>scope</key>
-			<string>source.python keyword.operator.logical.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>python function call parameter name</string>
-			<key>scope</key>
-			<string>source.python meta.function-call.python meta.function-call.arguments.python variable.parameter.function.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>javascript meta constant</string>
-			<key>scope</key>
-			<string>source.js                              meta.function.js                       support.constant.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>latex label names</string>
-			<key>scope</key>
-			<string>text.tex.latex                               meta.function.environment.math.latex                               string.other.math.block.environment.latex                               meta.definition.label.latex                               variable.parameter.definition.label.latex</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>latex italic emph</string>
-			<key>scope</key>
-			<string>text.tex.latex                           meta.function.emph.latex                              markup.italic.emph.latex</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>subl_new js vars</string>
-			<key>scope</key>
-			<string>source.js                          variable.other.readwrite.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>ABB2BF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>new_subl js $</string>
-			<key>scope</key>
-			<string>source.js                         meta.function-call.with-arguments.js                        variable.function.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>new_subl js call method</string>
-			<key>scope</key>
-			<string>source.js                            meta.group.braces.round                           meta.group.braces.curly                             meta.function-call.method.without-arguments.js                    variable.function.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>new_subl e js</string>
-			<key>scope</key>
-			<string>source.js                            meta.group.braces.round                            meta.group.braces.curly                            variable.other.object.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>new_subl js key</string>
-			<key>scope</key>
-			<string>source.js                             meta.group.braces.round                           meta.group.braces.curly                            constant.other.object.key.js                            string.unquoted.label.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>new_subl obejct key</string>
-			<key>scope</key>
-			<string>source.js                       meta.group.braces.round                            meta.group.braces.curly                           constant.other.object.key.js                         punctuation.separator.key-value.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>new_subl js method with args</string>
-			<key>scope</key>
-			<string>source.js                            meta.group.braces.round                           meta.group.braces.curly                           meta.function-call.method.with-arguments.js                 variable.function.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>new_subl js variable function</string>
-			<key>scope</key>
-			<string>source.js                            meta.function-call.method.with-arguments.js                        variable.function.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>new_subl variabel function method</string>
-			<key>scope</key>
-			<string>source.js                       meta.function-call.method.without-arguments.js                       variable.function.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Comments</string>
-			<key>scope</key>
-			<string>comment</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#a0a1a7</string>
+				<string>#fafafa</string>
 			</dict>
 		</dict>
 	</array>
