@@ -27,8 +27,8 @@ let colors_name="onehalflight"
 " Blue: #0184bc, 031
 " Purple: #a626a4, 127
 " Cyan: #0997b3, 031
-" White: #ffffff, 231
-" Black: #000000, 016
+" White: #fafafa, 231
+" Black: #383a42, 237
 "
 " Fg: #383a42, 237
 " Bg: #fafafa, 231
@@ -40,7 +40,7 @@ let colors_name="onehalflight"
 " Cursor_line: #f0f0f0, 255
 " Vertsplit: #f0f0f0, 255
 " Color_column: #ededed, 255
-" Visual: #BFCEFF, 153
+" Visual: #bfceff, 153
 " }
 
 " User interface colors {
@@ -71,7 +71,7 @@ hi Question guifg=#a626a4 ctermfg=127
 
 hi Pmenu guifg=#fafafa ctermfg=231 guibg=#383a42 ctermbg=237
 hi PmenuSel guifg=#383a42 ctermfg=237 guibg=#0184bc ctermbg=031
-hi PmenuSbar guibg=#BFCEFF ctermbg=153
+hi PmenuSbar guibg=#bfceff ctermbg=153
 hi PmenuThumb guibg=#383a42 ctermbg=237
 
 hi SpellBad guifg=#e45649 ctermfg=167
@@ -85,8 +85,8 @@ hi TabLine guifg=#a0a1a7 ctermfg=247 guibg=#f0f0f0 ctermbg=255
 hi TabLineFill guibg=#f0f0f0 ctermbg=255
 hi TabLineSel guifg=#383a42 ctermfg=237 guibg=#fafafa ctermbg=231
 
-hi Visual guibg=#BFCEFF ctermbg=153
-hi VisualNOS guibg=#BFCEFF ctermbg=153
+hi Visual guibg=#bfceff ctermbg=153
+hi VisualNOS guibg=#bfceff ctermbg=153
 
 hi ColorColumn guibg=#ededed ctermbg=255
 hi Conceal guifg=#383a42 ctermfg=237
