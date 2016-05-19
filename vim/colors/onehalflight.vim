@@ -69,10 +69,10 @@ hi MoreMsg guifg=#383a42 ctermfg=237
 hi WarningMsg guifg=#e45649 ctermfg=167
 hi Question guifg=#a626a4 ctermfg=127
 
-hi Pmenu guifg=#fafafa ctermfg=231 guibg=#383a42 ctermbg=237
-hi PmenuSel guifg=#383a42 ctermfg=237 guibg=#0184bc ctermbg=031
-hi PmenuSbar guibg=#bfceff ctermbg=153
-hi PmenuThumb guibg=#383a42 ctermbg=237
+hi Pmenu guifg=#383a42 ctermfg=237 guibg=#f0f0f0 ctermbg=255
+hi PmenuSel guifg=#fafafa ctermfg=231 guibg=#0184bc ctermbg=031
+hi PmenuSbar guibg=#f0f0f0 ctermbg=255
+hi PmenuThumb guibg=#a0a1a7 ctermbg=247
 
 hi SpellBad guifg=#e45649 ctermfg=167
 hi SpellCap guifg=#c18401 ctermfg=136
