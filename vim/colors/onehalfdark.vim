@@ -82,7 +82,7 @@ hi SpellRare guifg=#e5c07b ctermfg=180
 hi StatusLine guifg=#dcdfe4 ctermfg=188 guibg=#313640 ctermbg=237
 hi StatusLineNC guifg=#5c6370 ctermfg=241
 hi TabLine guifg=#5c6370 ctermfg=241 guibg=#313640 ctermbg=237
-hi TabLineFill guibg=#313640 ctermbg=237
+hi TabLineFill guifg=#5c6370 ctermfg=241 guibg=#313640 ctermbg=237 gui=none cterm=none
 hi TabLineSel guifg=#dcdfe4 ctermfg=188 guibg=#282c34 ctermbg=236
 
 hi Visual guibg=#474e5d ctermbg=239
