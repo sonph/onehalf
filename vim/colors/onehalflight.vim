@@ -39,7 +39,7 @@ let colors_name="onehalflight"
 "
 " Cursor_line: #f0f0f0, 255
 " Vertsplit: #f0f0f0, 255
-" Color_column: #ededed, 255
+" Color_column: #f0f0f0, 255
 " Visual: #bfceff, 153
 " }
 
@@ -88,7 +88,7 @@ hi TabLineSel guifg=#383a42 ctermfg=237 guibg=#fafafa ctermbg=231
 hi Visual guibg=#bfceff ctermbg=153
 hi VisualNOS guibg=#bfceff ctermbg=153
 
-hi ColorColumn guibg=#ededed ctermbg=255
+hi ColorColumn guibg=#f0f0f0 ctermbg=255
 hi Conceal guifg=#383a42 ctermfg=237
 hi Directory guifg=#0184bc ctermfg=031
 hi VertSplit guifg=#f0f0f0 ctermfg=255 guibg=#f0f0f0 ctermbg=255
