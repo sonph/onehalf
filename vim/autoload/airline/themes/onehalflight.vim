@@ -5,8 +5,8 @@
 "   License:     The MIT License (MIT)
 "
 "   A light vim-airline theme based on Atom's One, best used with the onehalf
-" 	vim colorschemes. See github.com/sonph/onehalf for installation
-"	instructions, a dark theme and colorschemes for other editors/terminals.
+"   vim colorschemes. See github.com/sonph/onehalf for installation
+"   instructions, a dark theme and colorschemes for other editors/terminals.
 "
 "   For documentation, see :h airline-themes or vim-airline's dark.vim theme at
 "   https://github.com/vim-airline/vim-airline/blob/master/autoload/airline/themes/dark.vim
@@ -48,9 +48,9 @@ let s:normal_middle = [s:dark_g, s:med_lo_g, s:dark_c, s:med_lo_c]
 let s:normal_inner = [s:green_g, s:med_hi_g, s:green_c, s:med_hi_c]
 let s:normal_inner_modified = [s:yellow_g, s:med_hi_g, s:yellow_c, s:med_hi_c]
 let g:airline#themes#onehalflight#palette.normal = 
-	\ airline#themes#generate_color_map(s:normal_outer, s:normal_middle, s:normal_inner)
+    \ airline#themes#generate_color_map(s:normal_outer, s:normal_middle, s:normal_inner)
 let g:airline#themes#onehalflight#palette.normal_modified =
-	\ airline#themes#generate_color_map(s:normal_outer, s:normal_middle, s:normal_inner_modified)
+    \ airline#themes#generate_color_map(s:normal_outer, s:normal_middle, s:normal_inner_modified)
 
 
 " Insert mode
@@ -58,9 +58,9 @@ let s:insert_outer = [s:med_hi_g, s:blue_g, s:med_hi_c, s:blue_c]
 let s:insert_middle = s:normal_middle
 let s:insert_inner = [s:blue_g, s:med_hi_g, s:blue_c, s:med_hi_c]
 let g:airline#themes#onehalflight#palette.insert = 
-	\ airline#themes#generate_color_map(s:insert_outer, s:insert_middle, s:insert_inner)
+    \ airline#themes#generate_color_map(s:insert_outer, s:insert_middle, s:insert_inner)
 let g:airline#themes#onehalflight#palette.insert_modified = 
-	\ copy(g:airline#themes#onehalflight#palette.normal_modified)
+    \ copy(g:airline#themes#onehalflight#palette.normal_modified)
 
 
 " Replace mode
@@ -68,9 +68,9 @@ let s:replace_outer = [s:med_hi_g, s:red_g, s:med_hi_c, s:red_c]
 let s:replace_middle = s:normal_middle
 let s:replace_inner = [s:red_g, s:med_hi_g, s:red_c, s:med_hi_c]
 let g:airline#themes#onehalflight#palette.replace =
-	\ airline#themes#generate_color_map(s:replace_outer, s:replace_middle, s:replace_inner)
+    \ airline#themes#generate_color_map(s:replace_outer, s:replace_middle, s:replace_inner)
 let g:airline#themes#onehalflight#palette.replace_modified = 
-	\ copy(g:airline#themes#onehalflight#palette.insert_modified)
+    \ copy(g:airline#themes#onehalflight#palette.insert_modified)
 
 
 " Visual mode
@@ -78,15 +78,15 @@ let s:visual_outer = [s:light_g, s:yellow_g, s:light_c, s:yellow_c]
 let s:visual_middle = s:normal_middle
 let s:visual_inner = [s:yellow_g, s:med_hi_g, s:purple_c, s:med_hi_c]
 let g:airline#themes#onehalflight#palette.visual = 
-	\ airline#themes#generate_color_map(s:visual_outer, s:visual_middle, s:visual_inner)
+    \ airline#themes#generate_color_map(s:visual_outer, s:visual_middle, s:visual_inner)
 let g:airline#themes#onehalflight#palette.visual_modified = 
-	\ copy(g:airline#themes#onehalflight#palette.insert_modified)
+    \ copy(g:airline#themes#onehalflight#palette.insert_modified)
 
 
 " Inactive window
 let s:inactive = [s:dark_g, s:med_hi_g, s:dark_c, s:med_hi_c]
 let s:inactive_modified = [s:yellow_g, '', s:yellow_c, '']
 let g:airline#themes#onehalflight#palette.inactive = 
-	\ airline#themes#generate_color_map(s:inactive, s:inactive, s:inactive)
+    \ airline#themes#generate_color_map(s:inactive, s:inactive, s:inactive)
 let g:airline#themes#onehalflight#palette.inactive_modified = 
-	\ airline#themes#generate_color_map(s:inactive, s:inactive, s:inactive_modified)
+    \ airline#themes#generate_color_map(s:inactive, s:inactive, s:inactive_modified)
