@@ -16,168 +16,171 @@ syntax reset
 let g:colors_name="onehalfdark"
 let colors_name="onehalfdark"
 
-" Colors {
-" Format: Color: hex, cterm256
-"
-" Red: #e06c75, 168
-" Red (dark): #be5046, 131
-" Green: #98c379, 114
-" Yellow: #d19a66, 173
-" Yellow (light): #e5c07b, 180
-" Blue: #61afef, 075
-" Purple: #c678dd, 176
-" Cyan: #56b6c2, 073
-" White: #dcdfe4, 188
-" Black: #282c34, 236
-"
-" Fg: #dcdfe4, 188
-" Bg: #282c34, 236
-"
-" Comment_fg: #5c6370, 241
-" Gutter_fg: #919baa, 247
-" Gutter_bg: #282c34, 236
-"
-" Cursor_line: #313640, 237
-" Vertsplit: #313640, 237
-" Color_column: #313640, 237
-" Visual: #474e5d, 239
-" }
+
+let s:red         = { "gui": "#e06c75", "cterm": "168" }
+let s:green       = { "gui": "#98c379", "cterm": "114" }
+let s:yellow      = { "gui": "#e5c07b", "cterm": "180" }
+let s:blue        = { "gui": "#61afef", "cterm": "075" }
+let s:purple      = { "gui": "#c678dd", "cterm": "176" }
+let s:cyan        = { "gui": "#56b6c2", "cterm": "073" }
+
+let s:fg          = { "gui": "#dcdfe4", "cterm": "188" }
+let s:bg          = { "gui": "#282c34", "cterm": "236" }
+
+let s:comment_fg  = { "gui": "#5c6370", "cterm": "241" }
+let s:gutter_bg   = { "gui": "#282c34", "cterm": "236" }
+let s:gutter_fg   = { "gui": "#919baa", "cterm": "247" }
+
+let s:cursor_line = { "gui": "#313640", "cterm": "237" }
+let s:color_col   = { "gui": "#313640", "cterm": "237" }
+
+let s:selection   = { "gui": "#474e5d", "cterm": "239" }
+let s:vertsplit   = { "gui": "#313640", "cterm": "237" }
+
+
+function! s:h(group, fg, bg, attr)
+  if type(a:fg) == type({})
+    exec "hi " . a:group . " guifg=" . a:fg.gui . " ctermfg=" . a:fg.cterm
+  endif
+  if type(a:bg) == type({})
+    exec "hi " . a:group . " guibg=" . a:bg.gui . " ctermbg=" . a:bg.cterm
+  endif
+  if a:attr != ""
+    exec "hi " . a:group . " gui=" . a:attr . " cterm=" . a:attr
+  else
+    exec "hi " . a:group . " gui=none cterm=none"
+  endif
+endfun
+
 
 " User interface colors {
-hi Normal guifg=#dcdfe4 ctermfg=188 guibg=#282c34 ctermbg=236
-hi NonText guifg=#dcdfe4 ctermfg=188
+call s:h("Normal", s:fg, s:bg, "")
+call s:h("NonText", s:fg, "", "")
 
-hi Cursor guifg=#282c34 ctermfg=236 guibg=#61afef ctermbg=075
-" hi CursorIM guifg=#dcdfe4 ctermfg=188
-hi CursorColumn guibg=#313640 ctermbg=237
-hi CursorLine guibg=#313640 ctermbg=237
+call s:h("Cursor", s:bg, s:blue, "")
+call s:h("CursorColumn", "", s:cursor_line, "")
+call s:h("CursorLine", "", s:cursor_line, "")
 
-hi LineNr guifg=#919baa ctermfg=247 guibg=#282c34 ctermbg=236
-hi CursorLineNr guifg=#dcdfe4 ctermfg=188
+call s:h("LineNr", s:gutter_fg, s:gutter_bg, "")
+call s:h("CursorLineNr", s:fg, "", "")
 
-hi DiffAdd guifg=#98c379 ctermfg=114
-hi DiffChange guifg=#e5c07b ctermfg=180
-hi DiffDelete guifg=#e06c75 ctermfg=168
-hi DiffText guifg=#61afef ctermfg=075
+call s:h("DiffAdd", s:green, "", "")
+call s:h("DiffChange", s:yellow, "", "")
+call s:h("DiffDelete", s:red, "", "")
+call s:h("DiffText", s:blue, "", "")
 
-hi IncSearch guifg=#282c34 ctermfg=236 guibg=#e5c07b ctermbg=180
-hi Search guifg=#282c34 ctermfg=236 guibg=#e5c07b ctermbg=180
+call s:h("IncSearch", s:bg, s:yellow, "")
+call s:h("Search", s:bg, s:yellow, "")
 
-hi ErrorMsg guifg=#dcdfe4 ctermfg=188
-hi ModeMsg guifg=#dcdfe4 ctermfg=188
-hi MoreMsg guifg=#dcdfe4 ctermfg=188
-hi WarningMsg guifg=#e06c75 ctermfg=168
-hi Question guifg=#c678dd ctermfg=176
+call s:h("ErrorMsg", s:fg, "", "")
+call s:h("ModeMsg", s:fg, "", "")
+call s:h("MoreMsg", s:fg, "", "")
+call s:h("WarningMsg", s:red, "", "")
+call s:h("Question", s:purple, "", "")
 
-hi Pmenu guifg=#282c34 ctermfg=236 guibg=#dcdfe4 ctermbg=188
-hi PmenuSel guifg=#dcdfe4 ctermfg=188 guibg=#61afef ctermbg=075
-hi PmenuSbar guibg=#474e5d ctermbg=239
-hi PmenuThumb guibg=#dcdfe4 ctermbg=188
+call s:h("Pmenu", s:bg, s:fg, "")
+call s:h("PmenuSel", s:fg, s:blue, "")
+call s:h("PmenuSbar", "", s:selection, "")
+call s:h("PmenuThumb", "", s:fg, "")
 
-hi SpellBad guifg=#e06c75 ctermfg=168
-hi SpellCap guifg=#e5c07b ctermfg=180
-hi SpellLocal guifg=#e5c07b ctermfg=180
-hi SpellRare guifg=#e5c07b ctermfg=180
+call s:h("SpellBad", s:red, "", "")
+call s:h("SpellCap", s:yellow, "", "")
+call s:h("SpellLocal", s:yellow, "", "")
+call s:h("SpellRare", s:yellow, "", "")
 
-hi StatusLine guifg=#dcdfe4 ctermfg=188 guibg=#313640 ctermbg=237
-hi StatusLineNC guifg=#5c6370 ctermfg=241
-hi TabLine guifg=#5c6370 ctermfg=241 guibg=#313640 ctermbg=237
-hi TabLineFill guifg=#5c6370 ctermfg=241 guibg=#313640 ctermbg=237 gui=none cterm=none
-hi TabLineSel guifg=#dcdfe4 ctermfg=188 guibg=#282c34 ctermbg=236
+call s:h("StatusLine", s:fg, s:cursor_line, "")
+call s:h("StatusLineNC", s:comment_fg, "", "")
+call s:h("TabLine", s:comment_fg, s:cursor_line, "")
+call s:h("TabLineFill", s:comment_fg, s:cursor_line, "")
+call s:h("TabLineSel", s:fg, s:bg, "")
 
-hi Visual guibg=#474e5d ctermbg=239
-hi VisualNOS guibg=#474e5d ctermbg=239
+call s:h("Visual", "", s:selection, "")
+call s:h("VisualNOS", "", s:selection, "")
 
-hi ColorColumn guibg=#313640 ctermbg=237
-hi Conceal guifg=#dcdfe4 ctermfg=188
-hi Directory guifg=#61afef ctermfg=075
-hi VertSplit guifg=#313640 ctermfg=237 guibg=#313640 ctermbg=237
-hi Folded guifg=#dcdfe4 ctermfg=188
-hi FoldColumn guifg=#dcdfe4 ctermfg=188
-hi SignColumn guifg=#dcdfe4 ctermfg=188
+call s:h("ColorColumn", "", s:color_col, "")
+call s:h("Conceal", s:fg, "", "")
+call s:h("Directory", s:blue, "", "")
+call s:h("VertSplit", s:vertsplit, s:vertsplit, "")
+call s:h("Folded", s:fg, "", "")
+call s:h("FoldColumn", s:fg, "", "")
+call s:h("SignColumn", s:fg, "", "")
 
-hi MatchParen guifg=#61afef ctermfg=075
-hi SpecialKey guifg=#dcdfe4 ctermfg=188
-hi Title guifg=#98c379 ctermfg=114
-hi WildMenu guifg=#dcdfe4 ctermfg=188
+call s:h("MatchParen", s:blue, "", "")
+call s:h("SpecialKey", s:fg, "", "")
+call s:h("Title", s:green, "", "")
+call s:h("WildMenu", s:fg, "", "")
 " }
+
 
 " Syntax colors {
-hi Comment guifg=#5c6370
-hi Constant guifg=#56b6c2
-hi String guifg=#98c379
-hi Character guifg=#98c379
-hi Number guifg=#e5c07b
-hi Boolean guifg=#e5c07b
-hi Float guifg=#e5c07b
+call s:h("Comment", s:comment_fg, "", "")
+call s:h("Constant", s:cyan, "", "")
+call s:h("String", s:green, "", "")
+call s:h("Character", s:green, "", "")
+call s:h("Number", s:yellow, "", "")
+call s:h("Boolean", s:yellow, "", "")
+call s:h("Float", s:yellow, "", "")
 
-hi Identifier guifg=#e06c75 ctermfg=168
-hi Function guifg=#61afef ctermfg=075
-hi Statement guifg=#c678dd ctermfg=176
+call s:h("Identifier", s:red, "", "")
+call s:h("Function", s:blue, "", "")
+call s:h("Statement", s:purple, "", "")
 
-hi Conditional guifg=#c678dd ctermfg=176
-hi Repeat guifg=#c678dd ctermfg=176
-hi Label guifg=#c678dd ctermfg=176
-hi Operator guifg=#dcdfe4 ctermfg=188
-hi Keyword guifg=#e06c75 ctermfg=168
-hi Exception guifg=#c678dd ctermfg=176
+call s:h("Conditional", s:purple, "", "")
+call s:h("Repeat", s:purple, "", "")
+call s:h("Label", s:purple, "", "")
+call s:h("Operator", s:fg, "", "")
+call s:h("Keyword", s:red, "", "")
+call s:h("Exception", s:purple, "", "")
 
-hi PreProc guifg=#e5c07b ctermfg=180
-hi Include guifg=#61afef ctermfg=075
-hi Define guifg=#c678dd ctermfg=176
-hi Macro guifg=#c678dd ctermfg=176
-hi PreCondit guifg=#e5c07b ctermfg=180
+call s:h("PreProc", s:yellow, "", "")
+call s:h("Include", s:blue, "", "")
+call s:h("Define", s:purple, "", "")
+call s:h("Macro", s:purple, "", "")
+call s:h("PreCondit", s:yellow, "", "")
 
-hi Type guifg=#e5c07b ctermfg=180
-hi StorageClass guifg=#e5c07b ctermfg=180
-hi Structure guifg=#e5c07b ctermfg=180
-hi Typedef guifg=#e5c07b ctermfg=180
+call s:h("Type", s:yellow, "", "")
+call s:h("StorageClass", s:yellow, "", "")
+call s:h("Structure", s:yellow, "", "")
+call s:h("Typedef", s:yellow, "", "")
 
-hi Special guifg=#61afef ctermfg=075
-hi SpecialChar guifg=#dcdfe4 ctermfg=188
-hi Tag guifg=#dcdfe4 ctermfg=188
-hi Delimiter guifg=#dcdfe4 ctermfg=188
-hi SpecialComment guifg=#dcdfe4 ctermfg=188
-hi Debug guifg=#dcdfe4 ctermfg=188
-hi Underlined guifg=#dcdfe4 ctermfg=188
-hi Ignore guifg=#dcdfe4 ctermfg=188
-hi Error guifg=#e06c75 ctermfg=168 guibg=#282c34 ctermbg=236
-hi Todo guifg=#c678dd ctermfg=176
+call s:h("Special", s:blue, "", "")
+call s:h("SpecialChar", s:fg, "", "")
+call s:h("Tag", s:fg, "", "")
+call s:h("Delimiter", s:fg, "", "")
+call s:h("SpecialComment", s:fg, "", "")
+call s:h("Debug", s:fg, "", "")
+call s:h("Underlined", s:fg, "", "")
+call s:h("Ignore", s:fg, "", "")
+call s:h("Error", s:red, s:gutter_bg, "")
+call s:h("Todo", s:purple, "", "")
 " }
 
-" Language specific
-hi javaScriptBraces guifg=#dcdfe4 ctermfg=188
-hi javaScriptIdentifier guifg=#c678dd ctermfg=176
-hi javaScriptNull guifg=#e5c07b ctermfg=180
-hi javaScriptNumber guifg=#e5c07b ctermfg=180
-hi rubyBlockParameterList guifg=#e06c75 ctermfg=168
-hi rubyInterpolation guifg=#98c379 ctermfg=114
-hi rubyInterpolationDelimiter guifg=#e06c75 ctermfg=168
 
 " Plugins {
 " GitGutter
-hi GitGutterAdd guifg=#98c379 ctermfg=114 guibg=#282c34 ctermbg=236
-hi GitGutterDelete guifg=#e06c75 ctermfg=168 guibg=#282c34 ctermbg=236
-hi GitGutterChange guifg=#e5c07b ctermfg=180 guibg=#282c34 ctermbg=236
-hi GitGutterChangeDelete guifg=#e06c75 ctermfg=168 guibg=#282c34 ctermbg=236
+call s:h("GitGutterAdd", s:green, s:gutter_bg, "")
+call s:h("GitGutterDelete", s:red, s:gutter_bg, "")
+call s:h("GitGutterChange", s:yellow, s:gutter_bg, "")
+call s:h("GitGutterChangeDelete", s:red, s:gutter_bg, "")
 " Fugitive
-hi diffAdded guifg=#98c379 ctermfg=114
-hi diffRemoved guifg=#e06c75 ctermfg=168
+call s:h("diffAdded", s:green, "", "")
+call s:h("diffRemoved", s:red, "", "")
 " }
 
+
 " Git {
-hi gitcommitComment guifg=#5c6370 ctermfg=241
-hi gitcommitUnmerged guifg=#e06c75 ctermfg=168
-hi gitcommitOnBranch guifg=#dcdfe4 ctermfg=188
-hi gitcommitBranch guifg=#c678dd ctermfg=176
-hi gitcommitDiscardedType guifg=#e06c75 ctermfg=168
-hi gitcommitSelectedType guifg=#98c379 ctermfg=114
-hi gitcommitHeader guifg=#dcdfe4 ctermfg=188
-hi gitcommitUntrackedFile guifg=#56b6c2 ctermfg=073
-hi gitcommitDiscardedFile guifg=#e06c75 ctermfg=168
-hi gitcommitSelectedFile guifg=#98c379 ctermfg=114
-hi gitcommitUnmergedFile guifg=#e5c07b ctermfg=180
-hi gitcommitFile guifg=#dcdfe4 ctermfg=188
+call s:h("gitcommitComment", s:comment_fg, "", "")
+call s:h("gitcommitUnmerged", s:red, "", "")
+call s:h("gitcommitOnBranch", s:fg, "", "")
+call s:h("gitcommitBranch", s:purple, "", "")
+call s:h("gitcommitDiscardedType", s:red, "", "")
+call s:h("gitcommitSelectedType", s:green, "", "")
+call s:h("gitcommitHeader", s:fg, "", "")
+call s:h("gitcommitUntrackedFile", s:cyan, "", "")
+call s:h("gitcommitDiscardedFile", s:red, "", "")
+call s:h("gitcommitSelectedFile", s:green, "", "")
+call s:h("gitcommitUnmergedFile", s:yellow, "", "")
+call s:h("gitcommitFile", s:fg, "", "")
 hi link gitcommitNoBranch gitcommitBranch
 hi link gitcommitUntracked gitcommitComment
 hi link gitcommitDiscarded gitcommitComment
