@@ -9,20 +9,18 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 
 
 ## Screenshots
+(Individual screenshots are available in the [screenshots folder](./screenshots))
 
 ### Sublime Text
 Sublime Text 3 with Menlo font and [Spacegray](https://github.com/kkga/spacegray) themes.
-![screenshot: sublimetext light](https://raw.githubusercontent.com/sonph/onehalf/master/screenshots/sublimetext_light.png)
-![screenshot: sublimetext dark](https://raw.githubusercontent.com/sonph/onehalf/master/screenshots/sublimetext_dark.png)
+![screenshot: sublimetext light](./screenshots/sublimetext.png)
 
 ### (Neo)Vim
 NeoVim + Tmux with true colors support on iTerm2.
-![screenshot: vim light](https://raw.githubusercontent.com/sonph/onehalf/master/screenshots/vim_light.png)
-![screenshot: vim dark](https://raw.githubusercontent.com/sonph/onehalf/master/screenshots/vim_dark.png)
+![screenshot: vim light](./screenshots/vim.png)
 
 ### iTerm
-![screenshot: terminal light](https://raw.githubusercontent.com/sonph/onehalf/master/screenshots/terminal_light.png)
-![screenshot: terminal dark](https://raw.githubusercontent.com/sonph/onehalf/master/screenshots/terminal_dark.png)
+![screenshot: terminal light](./screenshots/terminal.png)
 
 ## Features
 WIP
