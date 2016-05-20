@@ -20,7 +20,7 @@ NeoVim + Tmux with true colors support on iTerm2.
 ![screenshot: vim light](./screenshots/vim.png)
 
 ### iTerm
-![screenshot: terminal light](./screenshots/terminal.png)
+![screenshot: terminal light](./screenshots/iterm.png)
 
 ## Features
 WIP
