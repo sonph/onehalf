@@ -1,3 +1,16 @@
+**Table of Contents**
+
+- [One Half 🎨 🖥](#one-half-%F0%9F%8E%A8-%F0%9F%96%A5)
+  - [Screenshots](#screenshots)
+    - [Sublime Text](#sublime-text)
+    - [(Neo)Vim](#neovim)
+    - [iTerm](#iterm)
+  - [Features](#features)
+  - [Installation & Usage](#installation-&-usage)
+  - [Contributing / Troubleshooting / Bug Reports](#contributing--troubleshooting--bug-reports)
+  - [License](#license)
+
+
 # One Half 🎨 🖥
 
 A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Work in progress.
