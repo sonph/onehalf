@@ -1,6 +1,6 @@
 # Vim Installation & Usage
 
-![screenshot: vim](./screenshots/vim.png)
+![screenshot: vim](../screenshots/vim.png)
 
 ## Installation
 ### Using a plugin manager (recommended)
