@@ -35,6 +35,11 @@ Make sure you have `syntax on`.
 If you want to use true colors in terminal vim like in the screenshots, try
 _nvim_ (with `let $NVIM_TUI_ENABLE_TRUE_COLOR=1` option) and a terminal emulator
 with true color support such as _iTerm2_. For _tmux_ use version 2.2 or newer.
+You can use
+[this script](https://github.com/sonph/dotfiles/blob/master/bin/truecolor.sh)
+to test if your terminal/tmux supports true colors or not.
+
+![truecolors](./truecolors.png)
 
 ## Troubleshooting/questions
 Feel free to [open a new issue](https://github.com/sonph/onehalf/issues/new)
