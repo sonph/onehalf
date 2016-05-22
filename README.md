@@ -1,16 +1,3 @@
-**Table of Contents**
-
-- [One Half 🎨 🖥](#one-half-%F0%9F%8E%A8-%F0%9F%96%A5)
-  - [Screenshots](#screenshots)
-    - [Sublime Text](#sublime-text)
-    - [(Neo)Vim](#neovim)
-    - [iTerm](#iterm)
-  - [Features](#features)
-  - [Installation & Usage](#installation-&-usage)
-  - [Contributing / Troubleshooting / Bug Reports](#contributing--troubleshooting--bug-reports)
-  - [License](#license)
-
-
 # One Half 🎨 🖥
 
 A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Work in progress.
@@ -20,23 +7,31 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 - Url: https://github.com/sonph/onehalf
 - License: MIT
 
+**Table of Contents**
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation & Usage](#installation-&-usage)
+- [Contributing / Troubleshooting / Bug Reports](#contributing--troubleshooting--bug-reports)
+- [License](#license)
+
+
+## Features
+WIP
 
 ## Screenshots
 (Individual screenshots are available in the [screenshots folder](./screenshots))
 
 ### Sublime Text
 Sublime Text 3 with Menlo font and [Spacegray](https://github.com/kkga/spacegray) themes.
-![screenshot: sublimetext light](./screenshots/sublimetext.png)
+![screenshot: sublimetext](./screenshots/sublimetext.png)
 
 ### (Neo)Vim
 NeoVim + Tmux with true colors support on iTerm2.
-![screenshot: vim light](./screenshots/vim.png)
+![screenshot: vim](./screenshots/vim.png)
 
 ### iTerm
-![screenshot: terminal light](./screenshots/iterm.png)
-
-## Features
-WIP
+![screenshot: terminal](./screenshots/iterm.png)
 
 
 ## Installation & Usage
