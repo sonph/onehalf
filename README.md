@@ -40,7 +40,12 @@ WIP
 
 
 ## Installation & Usage
-WIP
+### Vim ([detailed instructions](./vim/README.md))
+Install with Vundle and set `colorscheme` and `g:airline_theme`:
+
+    Bundle 'sonph/onehalf', {'rtp': 'vim/'}
+    colorscheme onehalflight
+    let g:airline_theme='onehalfdark'
 
 
 ## Contributing / Troubleshooting / Bug Reports
