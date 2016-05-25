@@ -38,12 +38,29 @@ NeoVim + Tmux with true colors support on iTerm2.
 
 
 ## Installation & Usage
-### Vim ([detailed instructions](./vim/README.md))
-Install with Vundle and set `colorscheme` and `g:airline_theme`:
+### Vim
+Install with Vundle then set `colorscheme` and `g:airline_theme`:
 
     Bundle 'sonph/onehalf', {'rtp': 'vim/'}
     colorscheme onehalflight
     let g:airline_theme='onehalfdark'
+
+([details/manual installation](./vim/README.md))
+
+
+### Sublime Text 2/3
+Install with [Package Control](https://packagecontrol.io).
+
+([details/manual installation](./sublimetext/README.md))
+
+
+### iTerm2
+1. Download color themes in the [iterm](./iterm) folder
+2. Import the color themes
+	- _Either_ double click on the color scheme files to import
+	- _Or_ open iTerm Preferences > Profiles > Colors > Color Presets > Import
+	and select the downloaded color theme files
+3. Select Preferences > Profiles > Colors > Color Presets > One Half Light (Dark)
 
 
 ## Contributing / Troubleshooting / Bug Reports
