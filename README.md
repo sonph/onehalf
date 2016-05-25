@@ -1,5 +1,8 @@
 # One Half 🎨 🖥
 
+![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)
+![license tag](https://img.shields.io/github/license/sonph/onehalf.svg?style=flat-square)
+
 A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Work in progress.
 
 - Name: One Half
