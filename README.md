@@ -57,10 +57,15 @@ Install with [Package Control](https://packagecontrol.io).
 ### iTerm2
 1. Download color themes in the [iterm](./iterm) folder
 2. Import the color themes
-	- _Either_ double click on the color scheme files to import
-	- _Or_ open iTerm Preferences > Profiles > Colors > Color Presets > Import
+  - _Either_ double click on the color scheme files to import
+  - _Or_ open iTerm Preferences > Profiles > Colors > Color Presets > Import
 	and select the downloaded color theme files
 3. Select Preferences > Profiles > Colors > Color Presets > One Half Light (Dark)
+
+
+### OS X Terminal.app
+Download the files in the [terminal](./terminal) folder and double click on a
+color theme file.
 
 
 ## Contributing / Troubleshooting / Bug Reports
