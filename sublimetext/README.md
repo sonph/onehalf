@@ -5,7 +5,7 @@
 
 ## Installation
 ### Using package control (recommended)
-__TL;DR__: Install with Sublime Text Package Control
+__TL;DR__: Install with Sublime Text [Package Control](https://packagecontrol.io/packages/One%20Half%20Color%20Schemes)
 
 1. Install [Sublime Text Package Control](https://packagecontrol.io/installation) if you do not already have it.
 

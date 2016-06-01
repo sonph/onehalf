@@ -7,7 +7,7 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 
 - Name: One Half
 - Author: Son A. Pham [@sonph](http://github.com/sonph)
-- Url: https://github.com/sonph/onehalf
+- Repo: https://github.com/sonph/onehalf
 - License: MIT
 
 **Table of Contents**
@@ -49,7 +49,7 @@ Install with Vundle then set `colorscheme` and `g:airline_theme`:
 
 
 ### Sublime Text 2/3
-Install with [Package Control](https://packagecontrol.io).
+Install with [Package Control](https://packagecontrol.io/packages/One%20Half%20Color%20Schemes).
 
 ([details/manual installation](./sublimetext/README.md))
 
