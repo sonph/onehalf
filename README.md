@@ -11,6 +11,8 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 - Repo: https://github.com/sonph/onehalf
 - License: MIT
 
+![main](./screenshots/main.png)
+
 **Table of Contents**
 
 - [Features](#features)
@@ -21,7 +23,21 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 
 
 ## Features
-WIP
+- Light and dark versions
+- Consistent colors across a wide variety of editors and terminals
+  - [x] TextMate
+  - [x] Sublime Text 2/3
+  - [x] GVim, MacVim, NeoVim (true colors) + vim-airline
+  - [x] OS X Terminal.app
+  - [x] iTerm2
+  - [ ] Terminal Vim 256 colors (WIP)
+  - [ ] IntelliJ
+  - [ ] Gnome Terminal
+  - [ ] Eclipse
+  - [ ] GNU Emacs
+  - [ ] Pygments
+  - [ ] Prism
+  - [add your suggestion](https://github.com/sonph/onehalf/issues/new)
 
 ## Screenshots
 (Individual screenshots are available in the [screenshots folder](./screenshots))
@@ -60,7 +76,7 @@ Install with [Package Control](https://packagecontrol.io/packages/One%20Half%20C
 2. Import the color themes
   - _Either_ double click on the color scheme files to import
   - _Or_ open iTerm Preferences > Profiles > Colors > Color Presets > Import
-	and select the downloaded color theme files
+  and select the downloaded color theme files
 3. Select Preferences > Profiles > Colors > Color Presets > One Half Light (Dark)
 
 
