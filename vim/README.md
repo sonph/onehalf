@@ -23,14 +23,17 @@ Download the files in [vim/](./vim/) and put them in their respective folders
 
 ## Usage
 Put `colorscheme <scheme>` and `let g:airline_theme='<theme>'` in your `.vimrc`
-to set the color scheme and airline theme.
+to set the color scheme and airline theme. Make sure you have syntax
+highlighting on, and 256 colors set. Vim version >= 7.4 recommended.
 
 For example:
 
+    syntax on
+    set t_Co=256
+    set cursorline
     colorscheme onehalflight
     let g:airline_theme='onehalfdark'
 
-Make sure you have syntax highlighting on, and 256 colors set. Vim version >= 7.4 recommended.
 
 If you want to use true colors in terminal vim like in the screenshots, try
 _nvim_ (with `let $NVIM_TUI_ENABLE_TRUE_COLOR=1` option) and a terminal emulator
