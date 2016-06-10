@@ -397,6 +397,138 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Java Source</string>
+			<key>scope</key>
+			<string>source.java meta.class.java meta.method.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcdfe4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Java Class Body</string>
+			<key>scope</key>
+			<string>source.java meta.class.java meta.class.body.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcdfe4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: Function Arguments</string>
+			<key>scope</key>
+			<string>source.js meta.function.js variable.parameter.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06c75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: New Variables</string>
+			<key>scope</key>
+			<string>source.js variable.other.readwrite.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06c75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: Variables</string>
+			<key>scope</key>
+			<string>source.js variable.other.object.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcdfe4</string>
+			</dict>
+		</dict>
+			<dict>
+			<key>name</key>
+			<string>Javascript: Variables in Function Calls</string>
+			<key>scope</key>
+			<string>source.js meta.function-call.method.js variable.other.readwrite.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06c75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: New Block Variables</string>
+			<key>scope</key>
+			<string>source.js meta.block.js variable.other.readwrite.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06c75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: Block Variables</string>
+			<key>scope</key>
+			<string>source.js meta.block.js variable.other.object.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcdfe4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: Block Variables in Function Calls</string>
+			<key>scope</key>
+			<string>source.js meta.block.js meta.function-call.method.js variable.other.readwrite.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcdfe4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: Function Calls</string>
+			<key>scope</key>
+			<string>source.js meta.function-call.method.js variable.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcdfe4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: Properties</string>
+			<key>scope</key>
+			<string>source.js meta.property.object.js entity.name.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#61afef</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript: Prototypes</string>
+			<key>scope</key>
+			<string>source.js support.constant.prototype.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcdfe4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Separator</string>
 			<key>scope</key>
 			<string>meta.separator</string>
