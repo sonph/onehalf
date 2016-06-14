@@ -12,7 +12,7 @@ package manager.
 
 To install with Vundle, put
 
-    Bundle 'sonph/onehalf', {'rtp': 'vim/'}
+    Plugin 'sonph/onehalf', {'rtp': 'vim/'}
 
 in your `.vimrc`, restart vim then execute `:PluginInstall`. This will install
 both the color schemes and vim-airline themes.
@@ -36,9 +36,11 @@ For example:
 
 
 If you want to use true colors in terminal vim like in the screenshots, try
-_nvim_ (with `let $NVIM_TUI_ENABLE_TRUE_COLOR=1` option) and a terminal emulator
-with true color support such as _iTerm2_. For _tmux_ use version 2.2 or newer.
-You can use
+_nvim_ (with `let $NVIM_TUI_ENABLE_TRUE_COLOR=1` or `set termguicolors` option,
+depending on your neovim version;
+[see here](https://github.com/neovim/neovim/wiki/Following-HEAD) for more
+details) and a terminal emulator with true colors support such as _iTerm2_.
+For _tmux_ use version 2.2 or newer. You can use
 [this script](https://github.com/sonph/dotfiles/blob/master/bin/truecolor.sh)
 to test if your terminal/tmux supports true colors or not.
 

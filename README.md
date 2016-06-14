@@ -27,10 +27,10 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 - Consistent colors across a wide variety of editors and terminals
   - [x] TextMate
   - [x] Sublime Text 2/3
-  - [x] GVim, MacVim, NeoVim (true colors) + vim-airline
+  - [x] GVim, MacVim, NeoVim, vim-airline (GUI/true colors)
   - [x] OS X Terminal.app
   - [x] iTerm2
-  - [ ] Terminal Vim 256 colors (WIP)
+  - [x] Terminal Vim, vim-airline (256 colors)
   - [ ] IntelliJ
   - [ ] Gnome Terminal
   - [ ] Eclipse
