@@ -18,11 +18,11 @@ let colors_name="onehalflight"
 
 
 let s:red         = { "gui": "#e45649", "cterm": "167" }
-let s:green       = { "gui": "#50a14f", "cterm": "071" }
+let s:green       = { "gui": "#50a14f", "cterm": "71" }
 let s:yellow      = { "gui": "#c18401", "cterm": "136" }
-let s:blue        = { "gui": "#0184bc", "cterm": "031" }
+let s:blue        = { "gui": "#0184bc", "cterm": "31" }
 let s:purple      = { "gui": "#a626a4", "cterm": "127" }
-let s:cyan        = { "gui": "#0997b3", "cterm": "031" }
+let s:cyan        = { "gui": "#0997b3", "cterm": "31" }
 
 let s:fg          = { "gui": "#383a42", "cterm": "237" }
 let s:bg          = { "gui": "#fafafa", "cterm": "231" }

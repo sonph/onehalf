@@ -20,9 +20,9 @@ let colors_name="onehalfdark"
 let s:red         = { "gui": "#e06c75", "cterm": "168" }
 let s:green       = { "gui": "#98c379", "cterm": "114" }
 let s:yellow      = { "gui": "#e5c07b", "cterm": "180" }
-let s:blue        = { "gui": "#61afef", "cterm": "075" }
+let s:blue        = { "gui": "#61afef", "cterm": "75"  }
 let s:purple      = { "gui": "#c678dd", "cterm": "176" }
-let s:cyan        = { "gui": "#56b6c2", "cterm": "073" }
+let s:cyan        = { "gui": "#56b6c2", "cterm": "73"  }
 
 let s:fg          = { "gui": "#dcdfe4", "cterm": "188" }
 let s:bg          = { "gui": "#282c34", "cterm": "236" }

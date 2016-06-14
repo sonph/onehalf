@@ -16,7 +16,7 @@
 
 " _g: gui, _c: cterm
 let s:dark_g = '#969696'
-let s:dark_c = 246
+let s:dark_c = 245
 let s:med_lo_g = '#e3e3e3'
 let s:med_lo_c = 254
 let s:med_hi_g = '#f0f0f0'
@@ -25,17 +25,13 @@ let s:light_g = '#fafafa'
 let s:light_c = 231
 
 let s:green_g = '#50a14f'
-let s:green_c = 071
+let s:green_c = 71
 let s:blue_g = '#0184bc'
-let s:blue_c = 031
-let s:purple_g = '#a626a4'
-let s:purple_c = 127
+let s:blue_c = 31
 let s:yellow_g = '#c18401'
 let s:yellow_c = 136
 let s:red_g = '#e45649'
 let s:red_c = 167
-let s:purple_g = '#a626a4'
-let s:purple_c = 127
 
 
 let g:airline#themes#onehalflight#palette = {}
@@ -44,8 +40,8 @@ let g:airline#themes#onehalflight#palette = {}
 " Normal mode
 " Array format: [guifg, guibg, ctermfg, ctermbg, opts]
 let s:normal_outer = [s:light_g, s:green_g, s:light_c, s:green_c]
-let s:normal_middle = [s:dark_g, s:med_lo_g, s:dark_c, s:med_lo_c]
-let s:normal_inner = [s:green_g, s:med_hi_g, s:green_c, s:med_hi_c]
+let s:normal_middle = [s:dark_g, s:med_hi_g, s:dark_c, s:med_hi_c]
+let s:normal_inner = [s:green_g, s:light_g, s:green_c, s:light_c]
 let s:normal_inner_modified = [s:yellow_g, s:med_hi_g, s:yellow_c, s:med_hi_c]
 let g:airline#themes#onehalflight#palette.normal = 
     \ airline#themes#generate_color_map(s:normal_outer, s:normal_middle, s:normal_inner)
@@ -54,9 +50,9 @@ let g:airline#themes#onehalflight#palette.normal_modified =
 
 
 " Insert mode
-let s:insert_outer = [s:med_hi_g, s:blue_g, s:med_hi_c, s:blue_c]
+let s:insert_outer = [s:light_g, s:blue_g, s:light_c, s:blue_c]
 let s:insert_middle = s:normal_middle
-let s:insert_inner = [s:blue_g, s:med_hi_g, s:blue_c, s:med_hi_c]
+let s:insert_inner = [s:blue_g, s:light_g, s:blue_c, s:light_c]
 let g:airline#themes#onehalflight#palette.insert = 
     \ airline#themes#generate_color_map(s:insert_outer, s:insert_middle, s:insert_inner)
 let g:airline#themes#onehalflight#palette.insert_modified = 
@@ -64,9 +60,9 @@ let g:airline#themes#onehalflight#palette.insert_modified =
 
 
 " Replace mode
-let s:replace_outer = [s:med_hi_g, s:red_g, s:med_hi_c, s:red_c]
+let s:replace_outer = [s:light_g, s:red_g, s:light_c, s:red_c]
 let s:replace_middle = s:normal_middle
-let s:replace_inner = [s:red_g, s:med_hi_g, s:red_c, s:med_hi_c]
+let s:replace_inner = [s:red_g, s:light_g, s:red_c, s:light_c]
 let g:airline#themes#onehalflight#palette.replace =
     \ airline#themes#generate_color_map(s:replace_outer, s:replace_middle, s:replace_inner)
 let g:airline#themes#onehalflight#palette.replace_modified = 
@@ -76,7 +72,7 @@ let g:airline#themes#onehalflight#palette.replace_modified =
 " Visual mode
 let s:visual_outer = [s:light_g, s:yellow_g, s:light_c, s:yellow_c]
 let s:visual_middle = s:normal_middle
-let s:visual_inner = [s:yellow_g, s:med_hi_g, s:purple_c, s:med_hi_c]
+let s:visual_inner = [s:yellow_g, s:light_g, s:yellow_c, s:light_c]
 let g:airline#themes#onehalflight#palette.visual = 
     \ airline#themes#generate_color_map(s:visual_outer, s:visual_middle, s:visual_inner)
 let g:airline#themes#onehalflight#palette.visual_modified = 

@@ -16,26 +16,22 @@
 
 " _g: gui, _c: cterm
 let s:light_g = '#dcdfe4'
-let s:light_c = 188
+let s:light_c = 255
 let s:med_hi_g = '#5d677a'
-let s:med_hi_c = 060
+let s:med_hi_c = 243
 let s:med_lo_g = '#313640'
-let s:med_lo_c = 237
+let s:med_lo_c = 238
 let s:dark_g = '#282c34'
 let s:dark_c = 236
 
 let s:green_g = '#98c379'
 let s:green_c = 114
 let s:blue_g = '#61afef'
-let s:blue_c = 075
-let s:purple_g = '#c678dd'
-let s:purple_c = 176
+let s:blue_c = 75
 let s:yellow_g = '#e5c07b'
 let s:yellow_c = 180
 let s:red_g = '#e06c75'
 let s:red_c = 168
-let s:purple_g = '#c678dd'
-let s:purple_c = 176
 
 
 let g:airline#themes#onehalfdark#palette = {}
@@ -76,7 +72,7 @@ let g:airline#themes#onehalfdark#palette.replace_modified =
 " Visual mode
 let s:visual_outer = [s:dark_g, s:yellow_g, s:dark_c, s:yellow_c]
 let s:visual_middle = s:normal_middle
-let s:visual_inner = [s:yellow_g, s:med_lo_g, s:purple_c, s:med_lo_c]
+let s:visual_inner = [s:yellow_g, s:med_lo_g, s:yellow_c, s:med_lo_c]
 let g:airline#themes#onehalfdark#palette.visual = 
     \ airline#themes#generate_color_map(s:visual_outer, s:visual_middle, s:visual_inner)
 let g:airline#themes#onehalfdark#palette.visual_modified = 
