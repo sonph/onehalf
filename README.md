@@ -31,8 +31,8 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
   - [x] OS X Terminal.app
   - [x] iTerm2
   - [x] Terminal Vim, vim-airline (256 colors)
+  - [x] Gnome Terminal
   - [ ] IntelliJ
-  - [ ] Gnome Terminal
   - [ ] Eclipse
   - [ ] GNU Emacs
   - [ ] Pygments
