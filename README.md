@@ -62,6 +62,11 @@ Install with Vundle then set `colorscheme` and `g:airline_theme`:
     colorscheme onehalflight
     let g:airline_theme='onehalfdark'
 
+Or if using lightline, set `g:lightline.colorscheme`:
+
+    let g:lightline.colorscheme='onehalfdark'
+
+
 ([details/manual installation](./vim/README.md))
 
 
