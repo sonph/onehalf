@@ -22,9 +22,10 @@ Download the files in [vim/](./vim/) and put them in their respective folders
 (`./vim/colors/` and `./vim/autoload/airline/themes/`)
 
 ## Usage
-Put `colorscheme <scheme>` and `let g:airline_theme='<theme>'` in your `.vimrc`
-to set the color scheme and airline theme. Make sure you have syntax
-highlighting on, and 256 colors set. Vim version >= 7.4 recommended.
+Put `colorscheme <scheme>` and `let g:airline_theme='<theme>'`, if using airline
+or `let g:lightline.colorscheme='<theme>'`, if using lightline, in your `.vimrc`
+to set the color scheme and airline (or lightline) theme. Make sure you have
+syntax highlighting on, and 256 colors set. Vim version >= 7.4 recommended.
 
 For example:
 
@@ -33,6 +34,8 @@ For example:
     set cursorline
     colorscheme onehalflight
     let g:airline_theme='onehalfdark'
+	" lightline
+	" let g:lightline.colorscheme='onehalfdark'
 
 
 If you want to use true colors in terminal vim like in the screenshots, try
