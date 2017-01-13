@@ -193,3 +193,26 @@ hi link gitcommitDiscardedArrow gitcommitDiscardedFile
 hi link gitcommitSelectedArrow gitcommitSelectedFile
 hi link gitcommitUnmergedArrow gitcommitUnmergedFile
 " }
+
+" Fix colors in neovim terminal buffers {
+  if has('nvim')
+    let g:terminal_color_0 = '#484b54'
+    let g:terminal_color_1 = '#eb6d5b'
+    let g:terminal_color_2 = '#60ae62'
+    let g:terminal_color_3 = '#cd9500'
+    let g:terminal_color_4 = '#0097c8'
+    let g:terminal_color_5 = '#b742b3'
+    let g:terminal_color_6 = '#00a7c0'
+    let g:terminal_color_7 = '#fbfbfb'
+    let g:terminal_color_8 = '#626571'
+    let g:terminal_color_9 = '#e88388'
+    let g:terminal_color_10 = '#a7cc8c'
+    let g:terminal_color_11 = '#ebca8d'
+    let g:terminal_color_12 = '#72bef2'
+    let g:terminal_color_13 = '#d291e4'
+    let g:terminal_color_14 = '#65c2cd'
+    let g:terminal_color_15 = '#ffffff'
+    let g:terminal_color_background = g:terminal_color_0
+    let g:terminal_color_foreground = g:terminal_color_7
+  endif
+" }
