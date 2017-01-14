@@ -204,6 +204,14 @@ hi link gitcommitUnmergedArrow gitcommitUnmergedFile
     let g:terminal_color_5 = s:purple.gui
     let g:terminal_color_6 = s:cyan.gui
     let g:terminal_color_7 = s:fg
+    let g:terminal_color_8 = s:bg
+    let g:terminal_color_9 = s:red.gui
+    let g:terminal_color_10 = s:green.gui
+    let g:terminal_color_11 = s:yellow.gui
+    let g:terminal_color_12 = s:blue.gui
+    let g:terminal_color_13 = s:purple.gui
+    let g:terminal_color_14 = s:cyan.gui
+    let g:terminal_color_15 = s:fg
     let g:terminal_color_background = g:terminal_color_0
     let g:terminal_color_foreground = g:terminal_color_7
   endif
