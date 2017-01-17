@@ -1,6 +1,7 @@
 # Sublime Text Installation & Usage
 
 ![screenshot: sublimetext](../screenshots/sublimetext.png)
+Sublime Text 3 with Menlo font and [Spacegray](https://github.com/kkga/spacegray) themes.
 
 
 ## Installation

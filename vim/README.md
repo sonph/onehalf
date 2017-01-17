@@ -1,6 +1,7 @@
 # Vim Installation & Usage
 
 ![screenshot: vim](../screenshots/vim.png)
+NeoVim + Tmux with true colors on iTerm2.
 
 ## Installation
 ### Using a plugin manager (recommended)

@@ -11,6 +11,8 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 - Repo: https://github.com/sonph/onehalf
 - License: MIT
 
+![dark](./screenshots/dark.png)
+![light](./screenshots/light.png)
 ![main](./screenshots/main.png)
 
 **Table of Contents**
@@ -23,15 +25,15 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 
 
 ## Features
-- Light and dark versions
+- Light and dark color schemes
 - Consistent colors across a wide variety of editors and terminals
-  - [x] TextMate
-  - [x] Sublime Text 2/3
-  - [x] GVim, MacVim, NeoVim, vim-airline (GUI/true colors)
-  - [x] OS X Terminal.app
-  - [x] iTerm2
-  - [x] Terminal Vim, vim-airline (256 colors)
-  - [x] Gnome Terminal
+  - [x] [TextMate](./sublimetext)
+  - [x] [Sublime Text 2/3](./sublimetext)
+  - [x] [GVim, MacVim, NeoVim, vim-airline (GUI/true colors)](./vim)
+  - [x] [OS X Terminal.app](./terminal)
+  - [x] [iTerm2](./iterm)
+  - [x] [Terminal Vim, vim-airline (256 colors)](./vim)
+  - [x] [Gnome Terminal](./gnome-terminal)
   - [ ] IntelliJ
   - [ ] Eclipse
   - [ ] GNU Emacs
@@ -40,19 +42,7 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
   - [add your suggestion](https://github.com/sonph/onehalf/issues/new)
 
 ## Screenshots
-(Individual screenshots are available in the [screenshots folder](./screenshots))
-
-### Sublime Text
-Sublime Text 3 with Menlo font and [Spacegray](https://github.com/kkga/spacegray) themes.
-![screenshot: sublimetext](./screenshots/sublimetext.png)
-
-### (Neo)Vim
-NeoVim + Tmux with true colors support on iTerm2.
-![screenshot: vim](./screenshots/vim.png)
-
-### iTerm
-![screenshot: terminal](./screenshots/iterm.png)
-
+All screenshots are available in the [screenshots folder](./screenshots).
 
 ## Installation & Usage
 ### Vim
@@ -62,7 +52,7 @@ Install with Vundle then set `colorscheme` and `g:airline_theme`:
     colorscheme onehalflight
     let g:airline_theme='onehalfdark'
 
-Or if using lightline, set `g:lightline.colorscheme`:
+Or if you are using lightline, set `g:lightline.colorscheme`:
 
     let g:lightline.colorscheme='onehalfdark'
 
@@ -77,22 +67,22 @@ Install with [Package Control](https://packagecontrol.io/packages/One%20Half%20C
 
 
 ### iTerm2
-1. Download color themes in the [iterm](./iterm) folder
-2. Import the color themes
-  - _Either_ double click on the color scheme files to import
+1. Download the theme files in the [iterm](./iterm) folder
+2. Import the color schemes
+  - _Either_ double click on the files to import
   - _Or_ open iTerm Preferences > Profiles > Colors > Color Presets > Import
-  and select the downloaded color theme files
+  then select the downloaded files
 3. Select Preferences > Profiles > Colors > Color Presets > One Half Light (Dark)
 
 
 ### OS X Terminal.app
 Download the files in the [terminal](./terminal) folder and double click on a
-color theme file.
+color scheme file.
 
 
 ## Contributing / Troubleshooting / Bug Reports
 Contributions are welcome. Feel free to [open an issue](https://github.com/sonph/onehalf/issues/new)
-if you have problems installing and using the colorschemes.
+if you have problems installing and using the color schemes.
 
 
 ## License
