@@ -4,10 +4,12 @@
 GPU-accelerated terminal emulator.
 
 Alacritty's config file is a YAML formatted file in either one of these paths:
-1. `$XDG_CONFIG_HOME/alacritty/alacritty.yml`
-2. `$XDG_CONFIG_HOME/alacritty.yml`
-3. `$HOME/.config/alacritty/alacritty.yml`
-4. `$HOME/.alacritty.yml`
+
+  1. `$XDG_CONFIG_HOME/alacritty/alacritty.yml`
+  2. `$XDG_CONFIG_HOME/alacritty.yml`
+  3. `$HOME/.config/alacritty/alacritty.yml`
+  4. `$HOME/.alacritty.yml`
+
 (`$XDG_CONFIG_HOME` often defaults to `$HOME/.config` on most systems)
 
 Simply open up your current config file (or make a copy of the sample one from
