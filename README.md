@@ -38,6 +38,7 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
   - [x] [Xcode](./xcode)
   - [x] [Mintty/WSLtty](./mintty)
   - [x] [bat](https://github.com/sharkdp/bat)
+  - [x] [pywal](https://github.com/dylanaraps/pywal)
   - [ ] IntelliJ
   - [ ] Eclipse
   - [ ] GNU Emacs
@@ -99,6 +100,15 @@ Install with [Package Control](https://packagecontrol.io/packages/One%20Half%20C
 Download the files in the [terminal](./terminal) folder and double click on a
 color scheme file.
 
+### Pywal
+Copy the files in the [wal/colorschemes](./wal/colorschemes) folder under the matching
+directories in `~/.config/wal/colorschemes`, then enable the schemes:
+
+```
+> wal -l --theme one-half-light
+# or
+> wal --theme one-half-dark
+```
 
 ## Contributing / Troubleshooting / Bug Reports
 Contributions are welcome. Feel free to [open an issue](https://github.com/sonph/onehalf/issues/new)
