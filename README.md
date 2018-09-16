@@ -13,7 +13,8 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 
 ![dark](./screenshots/dark.png)
 ![light](./screenshots/light.png)
-![main](./screenshots/main.png)
+![desktop_dark](./screenshots/desktop_dark.png)
+![desktop_light](./screenshots/desktop_light.png)
 
 **Table of Contents**
 
