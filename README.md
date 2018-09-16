@@ -4,7 +4,7 @@
 [![license tag](https://img.shields.io/github/license/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/blob/master/LICENSE.txt)
 [![package control](https://img.shields.io/packagecontrol/dt/One%20Half%20Color%20Schemes.svg?style=flat-square)](https://packagecontrol.io/packages/One%20Half%20Color%20Schemes)
 
-A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Work in progress.
+A color scheme for Sublime Text, (Neo)Vim, iTerm, and more. Based on Atom's One.
 
 - Name: One Half
 - Author: Son A. Pham [@sonph](http://github.com/sonph)
@@ -26,8 +26,8 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
 
 
 ## Features
-- Light and dark color schemes
-- Consistent colors across a wide variety of editors and terminals
+- Light and dark color schemes.
+- Support a wide range of editors and terminals for a consistent color theme.
   - [x] [TextMate](./sublimetext)
   - [x] [Sublime Text 2/3](./sublimetext)
   - [x] [GVim, MacVim, NeoVim, vim-airline (GUI/true colors)](./vim)
@@ -45,7 +45,7 @@ A color scheme for Sublime Text, N/Vim, iTerm, and more. Based on Atom's One. Wo
   - [ ] GNU Emacs
   - [ ] Pygments
   - [ ] Prism
-  - [add your suggestion](https://github.com/sonph/onehalf/issues/new)
+  - [Add Your Suggestion](https://github.com/sonph/onehalf/issues/new)
 
 
 ```
@@ -78,32 +78,33 @@ Or if you are using lightline, set `g:lightline.colorscheme`:
 
     let g:lightline.colorscheme='onehalfdark'
 
+If you want your vim and terminal colors to match exactly, you must enable true colors in vim.
 
-([details/manual installation](./vim/README.md))
+For more details and manual installation, see [vim README](./vim/README.md).
 
 
 ### Sublime Text 2/3
 Install with [Package Control](https://packagecontrol.io/packages/One%20Half%20Color%20Schemes).
 
-([details/manual installation](./sublimetext/README.md))
+For more details and manual installation, see [sublime text README](./sublimetext/README.md).
 
 
 ### iTerm2
-1. Download the theme files in the [iterm](./iterm) folder
-2. Import the color schemes
-  - _Either_ double click on the files to import
+1. Download the theme files in the [iterm](./iterm) folder.
+2. Import the color schemes:
+  - _Either_ double click on the files to import.
   - _Or_ open iTerm Preferences > Profiles > Colors > Color Presets > Import
-  then select the downloaded files
-3. Select Preferences > Profiles > Colors > Color Presets > One Half Light (Dark)
+  then select the downloaded files.
+3. Select Preferences > Profiles > Colors > Color Presets > One Half Light (Dark).
 
 
 ### OS X Terminal.app
-Download the files in the [terminal](./terminal) folder and double click on a
-color scheme file.
+Download the files in the [terminal](./terminal) folder and simply open the files. Terminal.app will
+automatically recognize and import the color schemes.
 
 ### Pywal
 Copy the files in the [wal/colorschemes](./wal/colorschemes) folder under the matching
-directories in `~/.config/wal/colorschemes`, then enable the schemes:
+directories in `~/.config/wal/colorschemes`, then enable the schemes (`-l` is for light theme):
 
 ```
 > wal -l --theme one-half-light
@@ -114,7 +115,3 @@ directories in `~/.config/wal/colorschemes`, then enable the schemes:
 ## Contributing / Troubleshooting / Bug Reports
 Contributions are welcome. Feel free to [open an issue](https://github.com/sonph/onehalf/issues/new)
 if you have problems installing and using the color schemes.
-
-
-## License
-Released under the MIT license.
