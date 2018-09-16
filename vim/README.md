@@ -39,17 +39,33 @@ For example:
 	" let g:lightline.colorscheme='onehalfdark'
 
 
-If you want to use true colors in terminal vim like in the screenshots, try
-_nvim_ (with `let $NVIM_TUI_ENABLE_TRUE_COLOR=1` or `set termguicolors` option,
-depending on your neovim version;
-[see here](https://github.com/neovim/neovim/wiki/Following-HEAD) for more
-details) and a terminal emulator with true colors support such as _iTerm2_.
-For _tmux_ use version 2.2 or newer. You can use
-[this script](https://github.com/sonph/dotfiles/blob/master/bin/truecolor.sh)
-to test if your terminal/tmux supports true colors or not.
+### True Colors
+By default vim only allows specifying one of the 256 (8 bit) predefined colors
+([wikipedia](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit)).
+
+If you want to match colors in vim and in your terminal exactly, you must enable _true colors_ (24
+bit).
+
+In vim/neovim, use `set termguicolors` option:
+
+```
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
+```
+
+If you use tmux, you must use version 2.2 or newer. Put this in your config:
+
+```
+set -g default-terminal "tmux-256color"
+set -ga terminal-overrides ",*256col*:Tc"
+```
+
+([source](https://github.com/tmux/tmux/issues/1246))
+
+To test if your neovim/tmux/terminal combination supports true colors or not, use this
+[test script](https://github.com/sonph/dotfiles/blob/master/bin/truecolor.sh):
 
 ![truecolors](./truecolors.png)
-
-## Troubleshooting/questions
-Feel free to [open a new issue](https://github.com/sonph/onehalf/issues/new)
-if you have questions or trouble getting it to work.
