@@ -20,9 +20,9 @@ A color scheme for Sublime Text, (Neo)Vim, iTerm, and more. Based on Atom's One.
 
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Installation & Usage](#installation-&-usage)
+- [Installation & Usage](#installation--usage)
 - [Contributing / Troubleshooting / Bug Reports](#contributing--troubleshooting--bug-reports)
-- [License](#license)
+- [License](LICENSE.txt)
 
 
 ## Features
