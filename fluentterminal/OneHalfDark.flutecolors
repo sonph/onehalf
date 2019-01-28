@@ -1,0 +1,38 @@
+/**
+ * Name:		One Half Dark
+ * Author:		Son A. Pham <sp@sonpham.me>
+ * Url:			https://github.com/sonph/onehalf
+ * License:		The MIT License (MIT)
+ * 
+ * A dark color scheme based on Atom's One. See github.com/sonph/onehalf
+ * for installation instructions, a light color scheme, and versions for other
+ * editors/terminals.
+ */
+
+{
+	"Name": "One Half Dark",
+	"Author": "Son A. Pham <sp@sonpham.me>",
+	"Colors": {
+		"Foreground": "#DCDFE4",
+		"Background": "#282C34",
+		"Cursor": "#313640",
+		"CursorAccent": "#282C34",
+		"Selection": "#474E5D",
+		"Black": "#282C34",
+		"Red": "#E06C75",
+		"Green": "#98C379",
+		"Yellow": "#E5C07B",
+		"Blue": "#61AFEF",
+		"Magenta": "#C678DD",
+		"Cyan": "#56B6C2",
+		"White": "#DCDFE4",
+		"BrightBlack": "#282C34",
+		"BrightRed": "#E06C75",
+		"BrightGreen": "#98C379",
+		"BrightYellow": "#E5C07B",
+		"BrightBlue": "#61AFEF",
+		"BrightMagenta": "#C678DD",
+		"BrightCyan": "#56B6C2",
+		"BrightWhite": "#DCDFE4"
+	}
+}
