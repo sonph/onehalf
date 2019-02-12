@@ -19,7 +19,7 @@ in your `.vimrc`, restart vim then execute `:PluginInstall`. This will install
 both the color schemes and vim-airline themes.
 
 ### Manual Installation
-Download the files in [vim/](./vim/) and put them in their respective folders
+Download the files in [vim/](./) and put them in their respective folders
 (`./vim/colors/` and `./vim/autoload/airline/themes/`)
 
 ## Usage
