@@ -1,0 +1,21 @@
+{
+    "background" : "#282C34",
+    "black" : "#282C34",
+    "blue" : "#61AFEF",
+    "brightBlack" : "#282C34",
+    "brightBlue" : "#61AFEF",
+    "brightCyan" : "#56B6C2",
+    "brightGreen" : "#98C379",
+    "brightPurple" : "#C678DD",
+    "brightRed" : "#E06C75",
+    "brightWhite" : "#DCDFE4",
+    "brightYellow" : "#E5C07B",
+    "cyan" : "#56B6C2",
+    "foreground" : "#DCDFE4",
+    "green" : "#98C379",
+    "name" : "One Half Dark",
+    "purple" : "#C678DD",
+    "red" : "#E06C75",
+    "white" : "#DCDFE4",
+    "yellow" : "#E5C07B"
+}
