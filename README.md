@@ -18,16 +18,11 @@ A color scheme for Sublime Text, (Neo)Vim, iTerm, and more. Based on Atom's One.
 
 **Table of Contents**
 
-- [One Half ½ 🎨 🖥](#One-Half-%C2%BD-%F0%9F%8E%A8-%F0%9F%96%A5)
-  - [Features](#Features)
-  - [Screenshots](#Screenshots)
-  - [Installation & Usage](#Installation--Usage)
-    - [Vim](#Vim)
-    - [Sublime Text 2/3](#Sublime-Text-23)
-    - [iTerm2](#iTerm2)
-    - [OS X Terminal.app](#OS-X-Terminalapp)
-    - [Pywal](#Pywal)
-  - [Contributing / Troubleshooting / Bug Reports](#Contributing--Troubleshooting--Bug-Reports)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation & Usage](#installation--usage)
+- [Contributing / Troubleshooting / Bug Reports](#contributing--troubleshooting--bug-reports)
+- [License](LICENSE.txt)
 
 
 ## Features
