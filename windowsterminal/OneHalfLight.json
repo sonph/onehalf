@@ -1,0 +1,21 @@
+{
+    "background" : "#FAFAFA",
+    "black" : "#383A42",
+    "blue" : "#0184BC",
+    "brightBlack" : "#383A42",
+    "brightBlue" : "#0184BC",
+    "brightCyan" : "#0997B3",
+    "brightGreen" : "#50A14F",
+    "brightPurple" : "#A626A4",
+    "brightRed" : "#E45649",
+    "brightWhite" : "#FAFAFA",
+    "brightYellow" : "#C18401",
+    "cyan" : "#0997B3",
+    "foreground" : "#383A42",
+    "green" : "#50A14F",
+    "name" : "One Half Light",
+    "purple" : "#A626A4",
+    "red" : "#E45649",
+    "white" : "#FAFAFA",
+    "yellow" : "#C18401"
+}
