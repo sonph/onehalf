@@ -75,8 +75,8 @@ call s:h("DiffChange", s:yellow, "", "")
 call s:h("DiffDelete", s:red, "", "")
 call s:h("DiffText", s:blue, "", "")
 
-call s:h("IncSearch", s:bg, s:yellow, "")
-call s:h("Search", s:bg, s:yellow, "")
+call s:h("IncSearch", s:yellow, s:bg, "bold,underline")
+call s:h("Search", s:yellow, s:bg, "bold,underline")
 
 call s:h("ErrorMsg", s:fg, "", "")
 call s:h("ModeMsg", s:fg, "", "")
