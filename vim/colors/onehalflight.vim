@@ -196,6 +196,13 @@ hi link gitcommitSelectedArrow gitcommitSelectedFile
 hi link gitcommitUnmergedArrow gitcommitUnmergedFile
 " }
 
+" Markdown {
+call s:h("mkdCode", s:green, "", "")
+call s:h("mkdLink", s:blue, "", "underline")
+call s:h("mkdURL", s:green, "", "underline")
+call s:h("mkdBlockQuote", s:comment_fg, "", "")
+" }
+
 " Fix colors in neovim terminal buffers {
   if has('nvim')
     let g:terminal_color_0 = s:black.gui
