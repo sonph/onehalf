@@ -63,7 +63,7 @@ colors:
     white: '0xdcdfe4'
 
   bright:
-    black: '0x282c34'
+    black: '0xA9A9A9'
     red: '0xe06c75'
     green: '0x98c379'
     yellow: '0xe5c07b'
