@@ -176,6 +176,7 @@ call s:h("diffRemoved", s:red, "", "")
 
 " Git {
 call s:h("gitcommitComment", s:comment_fg, "", "")
+call s:h("gitcommitSummary", s:blue, "", "")
 call s:h("gitcommitUnmerged", s:red, "", "")
 call s:h("gitcommitOnBranch", s:fg, "", "")
 call s:h("gitcommitBranch", s:purple, "", "")
