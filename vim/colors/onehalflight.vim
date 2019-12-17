@@ -196,6 +196,19 @@ hi link gitcommitSelectedArrow gitcommitSelectedFile
 hi link gitcommitUnmergedArrow gitcommitUnmergedFile
 " }
 
+" Fix colors in terminal buffers {
+  if has('terminal')
+    let g:terminal_ansi_colors = [
+          \ s:black.gui, s:red.gui, s:green.gui, s:yellow.gui,
+          \ s:blue.gui, s:purple.gui, s:cyan.gui, s:white.gui,
+          \ s:black.gui, s:red.gui, s:green.gui, s:yellow.gui,
+          \ s:blue.gui, s:purple.gui, s:cyan.gui, s:white.gui
+          \]
+    let g:terminal_color_background = s:bg.gui
+    let g:terminal_color_foreground = s:fg.gui
+  endif
+" }
+
 " Fix colors in neovim terminal buffers {
   if has('nvim')
     let g:terminal_color_0 = s:black.gui
