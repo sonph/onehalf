@@ -7,7 +7,8 @@
     wget https://raw.githubusercontent.com/sonph/onehalf/master/xfce4-terminal/OneHalfDark.theme
     wget https://raw.githubusercontent.com/sonph/onehalf/master/xfce4-terminal/OneHalfLight.theme
     ```
-or just clone the repository:
+
+    or just clone the repository:
     ```
     git clone https://github.com/sonph/onehalf
     cd onehalf/xfce4-terminal
