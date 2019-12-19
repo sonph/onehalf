@@ -1,0 +1,58 @@
+[Scheme]
+Name=One Half (light)
+
+# Translations based on Solarized (light) theme, included by default in XFCE4
+# (/usr/share/xfce4/terminal/colorschemes/solarized-light.theme)
+#
+Name[ar]=One Half (الضوء)
+Name[ast]=One Half (claru)
+Name[be]=One Half (светлае)
+Name[bg]=One Half (светъл)
+Name[ca]=One Half (clara)
+Name[cs]=One Half (světlé)
+Name[da]=One Half (lys)
+Name[de]=One Half (hell)
+Name[el]=One Half (ανοιχτό)
+Name[en_AU]=One Half (light)
+Name[es]=One Half (claro)
+Name[eu]=One Half (argia)
+Name[fi]=One Half (vaalea)
+Name[fr]=One Half (clair)
+Name[gl]=One Half (claro)
+Name[he]=One Half (בהיר)
+Name[hr]=One Half (svijetla)
+Name[hu]=One Half (világos)
+Name[hy_AM]=One Half (բաց)
+Name[id]=One Half (terang)
+Name[ie]=One Half (clar)
+Name[is]=One Half (ljóst)
+Name[it]=One Half (chiaro)
+Name[ja]=One Half (明)
+Name[kk]=One Half (ақшыл)
+Name[ko]=One Half (라이트)
+Name[lt]=One Half (šviesi)
+Name[ms]=One Half (cerah)
+Name[nb]=One Half (mørk)
+Name[nl]=One Half (licht)
+Name[pl]=One Half (jasne)
+Name[pt]=One Half (claro)
+Name[pt_BR]=One Half (claro)
+Name[ru]=One Half (светлый)
+Name[sk]=One Half (svetlé)
+Name[sl]=One Half (svetla)
+Name[sq]=One Half (e çelët)
+Name[sr]=One Half (светла)
+Name[sv]=One Half (ljus)
+Name[th]=One Half (สว่าง)
+Name[tr]=One Half (açık)
+Name[uk]=One Half (світлий)
+Name[zh_CN]=One Half (亮)
+Name[zh_TW]=One Half (亮)
+
+ColorBackground=#fafafa
+ColorForeground=#383a42
+ColorBold=#383a42
+ColorBoldUseDefault=FALSE
+ColorCursor=#fafafa
+#TabActivityColor=
+ColorPalette=#383a42;#e45649;#50a14f;#c18401;#0184bc;#a626a4;#0997b3;#fafafa;#4f525e;#e06c75;#98c379;#e5c07b;#61afef;#c678dd;#56b6c2;#ffffff

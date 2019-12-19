@@ -1,0 +1,58 @@
+[Scheme]
+Name=One Half (dark)
+
+# Translations based on Solarized (dark) theme, included by default in XFCE4
+# (/usr/share/xfce4/terminal/colorschemes/solarized-dark.theme)
+#
+Name[ar]=One Half (الظلام)
+Name[ast]=One Half (prietu)
+Name[be]=One Half (цёмнае)
+Name[bg]=One Half (тъмен)
+Name[ca]=One Half (fosca)
+Name[cs]=One Half (tmavé)
+Name[da]=One Half (mørk)
+Name[de]=One Half (dunkel)
+Name[el]=One Half (σκούρο)
+Name[en_AU]=One Half (dark)
+Name[es]=One Half (oscuro)
+Name[eu]=One Half (iluna)
+Name[fi]=One Half (tumma)
+Name[fr]=One Half (foncé)
+Name[gl]=One Half (escuro)
+Name[he]=One Half (אפל)
+Name[hr]=One Half (tamna)
+Name[hu]=One Half (sötét)
+Name[hy_AM]=One Half (մուգ)
+Name[id]=One Half (gelap)
+Name[ie]=One Half (obscur)
+Name[is]=One Half (dökkt)
+Name[it]=One Half (scuro)
+Name[ja]=One Half (暗)
+Name[kk]=One Half (қараңғы)
+Name[ko]=One Half (다크)
+Name[lt]=One Half (tamsi)
+Name[ms]=One Half (gelap)
+Name[nb]=One Half (mørk)
+Name[nl]=One Half (donker)
+Name[pl]=One Half (ciemne)
+Name[pt]=One Half (escuro)
+Name[pt_BR]=One Half (escuro)
+Name[ru]=One Half (тёмный)
+Name[sk]=One Half (tmavé)
+Name[sl]=One Half (temna)
+Name[sq]=One Half (e errët)
+Name[sr]=One Half (тамна)
+Name[sv]=One Half (mörk)
+Name[th]=One Half (มืด)
+Name[tr]=One Half (koyu)
+Name[uk]=One Half (темний)
+Name[zh_CN]=One Half (暗)
+Name[zh_TW]=One Half (暗)
+
+ColorBackground=#282c34
+ColorForeground=#dcdfe4
+ColorBold=#dcdfe4
+ColorBoldUseDefault=FALSE
+ColorCursor=#282C34
+#TabActivityColor=
+ColorPalette=#282c34;#e06c75;#98c379;#e5c07b;#61afef;#c678dd;#56b6c2;#dcdfe4;#282c34;#e06c75;#98c379;#e5c07b;#61afef;#c678dd;#56b6c2;#dcdfe4
