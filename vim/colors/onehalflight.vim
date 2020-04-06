@@ -24,9 +24,10 @@ let s:yellow      = { "gui": "#c18401", "cterm": "136" }
 let s:blue        = { "gui": "#0184bc", "cterm": "31" }
 let s:purple      = { "gui": "#a626a4", "cterm": "127" }
 let s:cyan        = { "gui": "#0997b3", "cterm": "31" }
-let s:white       = { "gui": "#fafafa", "cterm": "231" }
+let s:white       = { "gui": "#f3f3f3", "cterm": "231" }
+let s:text        = { "gui": "#444444", "cterm": "231" }
 
-let s:fg          = s:black
+let s:fg          = s:text
 let s:bg          = s:white
 
 let s:comment_fg  = { "gui": "#a0a1a7", "cterm": "247" }
@@ -113,7 +114,7 @@ call s:h("SignColumn", s:fg, "", "")
 
 call s:h("MatchParen", s:blue, "", "underline")
 call s:h("SpecialKey", s:fg, "", "")
-call s:h("Title", s:green, "", "")
+call s:h("Title", s:black, "", "bold")
 call s:h("WildMenu", s:fg, "", "")
 " }
 
