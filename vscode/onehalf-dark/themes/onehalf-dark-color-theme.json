@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./OneHalfDark.tmTheme",
+	"colors": {
+		"editor.foreground": "#dcdfe4",
+		"editor.background": "#282c34",
+		"editorCursor.foreground": "#a3b3cc",
+		"editorWhitespace.foreground": "#5c6370",
+		"editor.lineHighlightBackground": "#313640",
+		"editor.selectionBackground": "#474e5d"
+	},
+	"name": "onehalf-dark"
+}
