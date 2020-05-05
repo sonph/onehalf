@@ -16,6 +16,6 @@
 		"statusBar.foreground": "#dcdfe4",
 		"panel.background": "#282c34"
 	},
-	"name": "onehalf-dark",
 	"tokenColors": "./OneHalfDark.tmTheme",
+	"name": "onehalf-dark"
 }
