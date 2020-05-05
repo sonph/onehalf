@@ -1,12 +1,21 @@
 {
-	"tokenColors": "./OneHalfDark.tmTheme",
 	"colors": {
 		"editor.foreground": "#dcdfe4",
 		"editor.background": "#282c34",
 		"editorCursor.foreground": "#a3b3cc",
 		"editorWhitespace.foreground": "#5c6370",
 		"editor.lineHighlightBackground": "#313640",
-		"editor.selectionBackground": "#474e5d"
+		"editor.selectionBackground": "#474e5d",
+		"activityBar.background": "#282c34",
+		"activityBar.foreground": "#dcdfe4",
+		"sideBar.background": "#282c34",
+		"sideBar.foreground": "#dcdfe4",
+		"sideBarSectionHeader.background": "#282c34",
+		"sideBarSectionHeader.foreground": "#dcdfe4",
+		"statusBar.background": "#282c34",
+		"statusBar.foreground": "#dcdfe4",
+		"panel.background": "#282c34"
 	},
-	"name": "onehalf-dark"
+	"name": "onehalf-dark",
+	"tokenColors": "./OneHalfDark.tmTheme",
 }
