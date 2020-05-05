@@ -2,7 +2,7 @@
     "name": "onehalf-light",
     "displayName": "onehalf-light",
     "description": "A light Sublime Text color scheme based on Atom's One. See github.com/sonph/onehalf for installation instructions, a dark color scheme, and versions for other editors/terminals such as Vim or iTerm.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "quandinh",
     "repository": {
         "type": "git",
