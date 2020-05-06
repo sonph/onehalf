@@ -1,7 +1,7 @@
 {
     "name": "onehalf-dark",
     "displayName": "Onehalf Dark",
-    "description": "A dark Sublime Text color scheme based on Atom's One.",
+    "description": "A dark VS Code color scheme based on Atom's One.",
     "version": "0.2.0",
     "publisher": "quandinh",
     "repository": {
