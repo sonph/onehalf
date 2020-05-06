@@ -1,8 +1,8 @@
 {
     "name": "onehalf-dark",
-    "displayName": "onehalf-dark",
-    "description": "A dark Sublime Text color scheme based on Atom's One. See github.com/sonph/onehalf for installation instructions, a light color scheme, and versions for other editors/terminals such as Vim or iTerm.",
-    "version": "0.0.1",
+    "displayName": "Onehalf Dark",
+    "description": "A dark VS Code color scheme based on Atom's One.",
+    "version": "0.2.0",
     "publisher": "quandinh",
     "repository": {
         "type": "git",
@@ -22,5 +22,14 @@
                 "path": "./themes/onehalf-dark-color-theme.json"
             }
         ]
+    },
+    "galleryBanner": {
+        "color": "#282c34",
+        "theme": "dark"
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "homepage": "https://github.com/sonph/onehalf/blob/master/vscode/README.md",
+    "bugs": {
+        "url": "https://github.com/sonph/onehalf/issues/"
     }
 }
