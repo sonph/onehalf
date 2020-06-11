@@ -24,7 +24,6 @@ A color scheme for Sublime Text, (Neo)Vim, iTerm, and more. Based on Atom's One.
 - [Contributing / Troubleshooting / Bug Reports](#contributing--troubleshooting--bug-reports)
 - [License](LICENSE.txt)
 
-
 ## Features
 - Light and dark color schemes.
 - Support a wide range of editors and terminals for a consistent color theme.
@@ -75,13 +74,13 @@ All screenshots are available in the [screenshots folder](./screenshots).
 
 ## Installation & Usage
 ### Vim
-Install with Vundle then set `colorscheme` and `g:airline_theme`:
+Install with [Vundle](https://github.com/VundleVim/Vundle.vim) then set `colorscheme` and `g:airline_theme`:
 
     Bundle 'sonph/onehalf', {'rtp': 'vim/'}
     colorscheme onehalflight
     let g:airline_theme='onehalfdark'
 
-Or if you are using lightline, set `g:lightline.colorscheme`:
+Or if you are using [lightline](https://github.com/itchyny/lightline.vim), set `g:lightline.colorscheme`:
 
     let g:lightline.colorscheme='onehalfdark'
 
