@@ -27,23 +27,25 @@ A color scheme for Sublime Text, (Neo)Vim, iTerm, and more. Based on Atom's One.
 ## Features
 - Light and dark color schemes.
 - Support a wide range of editors and terminals for a consistent color theme.
-  - [x] [TextMate](./sublimetext)
   - [x] [Sublime Text 2/3](./sublimetext)
+  - [x] [VSCode](./vscode)
   - [x] [GVim, MacVim, NeoVim, vim-airline (GUI/true colors)](./vim)
-  - [x] [OS X Terminal.app](./terminal)
-  - [x] [iTerm2](./iterm)
   - [x] [Terminal Vim, vim-airline (256 colors)](./vim)
+  - [x] [iTerm2](./iterm)
+  - [x] [Xcode](./xcode)
+  - [x] [Windows Terminal](./windowsterminal)
+  - [x] [OS X Terminal.app](./terminal)
   - [x] [Gnome Terminal](./gnome-terminal)
   - [x] [Konsole](./konsole)
   - [x] [Alacritty](./alacritty)
-  - [x] [Xcode](./xcode)
   - [x] [Mintty/WSLtty](./mintty)
   - [x] [FluentTerminal](./fluentterminal)
-  - [x] [Windows Terminal](./windowsterminal)
   - [x] [bat](https://github.com/sharkdp/bat)
   - [x] [pywal](https://github.com/dylanaraps/pywal)
   - [x] [PuTTY](./putty)
   - [x] [Kitty](./kitty)
+  - [x] [TextMate](./sublimetext)
+  - [x] [xfce4-terminal](./xfce4-terminal)
   - [ ] Hyper
   - [ ] ConEmu
   - [ ] IntelliJ
@@ -52,7 +54,6 @@ A color scheme for Sublime Text, (Neo)Vim, iTerm, and more. Based on Atom's One.
   - [ ] Pygments
   - [ ] Prism
   - [Add Your Suggestion](https://github.com/sonph/onehalf/issues/new)
-
 
 ```
                         light     dark
