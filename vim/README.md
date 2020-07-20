@@ -6,17 +6,13 @@ NeoVim + Tmux with true colors on iTerm2.
 ## Installation
 ### Using a plugin manager (recommended)
 
-Use [Pathogen](http://github.com/tpope/vim-pathogen),
-[Vundle](http://github.com/gmarik/vundle),
-[Neobundle](http://github.com/Shougo/neobundle.vim) or your favourite Vim
-package manager.
+vim-plug:
 
-To install with Vundle, put
+```
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+```
 
-    Plugin 'sonph/onehalf', {'rtp': 'vim/'}
-
-in your `.vimrc`, restart vim then execute `:PluginInstall`. This will install
-both the color schemes and vim-airline themes.
+The 'rtp' option is necessary as the vim theme resides in a subdirectory of the git repo.
 
 ### Manual Installation
 Download the files in [vim/](./) and put them in their respective folders
@@ -24,20 +20,21 @@ Download the files in [vim/](./) and put them in their respective folders
 
 ## Usage
 Put `colorscheme <scheme>` and `let g:airline_theme='<theme>'`, if using airline
-or `let g:lightline.colorscheme='<theme>'`, if using lightline, in your `.vimrc`
+or `let g:lightline = { 'colorscheme': '<theme>' }`, if using lightline, in your `.vimrc`
 to set the color scheme and airline (or lightline) theme. Make sure you have
 syntax highlighting on, and 256 colors set. Vim version >= 7.4 recommended.
 
 For example:
 
-    syntax on
-    set t_Co=256
-    set cursorline
-    colorscheme onehalflight
-    let g:airline_theme='onehalfdark'
-	" lightline
-	" let g:lightline.colorscheme='onehalfdark'
-
+```
+syntax on
+set t_Co=256
+set cursorline
+colorscheme onehalflight
+let g:airline_theme='onehalfdark'
+" lightline
+" let g:lightline = { 'colorscheme': 'onehalfdark' }
+```
 
 ### True Colors
 By default vim only allows specifying one of the 256 (8 bit) predefined colors
