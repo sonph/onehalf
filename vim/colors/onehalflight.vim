@@ -119,6 +119,7 @@ call s:h("WildMenu", s:fg, "", "")
 
 
 " Syntax colors {
+call s:h("Whitespace", s:comment_fg, "", "")
 call s:h("Comment", s:comment_fg, "", "")
 call s:h("Constant", s:cyan, "", "")
 call s:h("String", s:green, "", "")
