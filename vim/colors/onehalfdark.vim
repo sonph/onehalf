@@ -32,6 +32,7 @@ let s:bg          = s:black
 let s:comment_fg  = { "gui": "#5c6370", "cterm": "241" }
 let s:gutter_bg   = { "gui": "#282c34", "cterm": "236" }
 let s:gutter_fg   = { "gui": "#919baa", "cterm": "247" }
+let s:non_text    = { "gui": "#373C45", "cterm": "239" }
 
 let s:cursor_line = { "gui": "#313640", "cterm": "237" }
 let s:color_col   = { "gui": "#313640", "cterm": "237" }
@@ -61,7 +62,6 @@ endfun
 
 " User interface colors {
 call s:h("Normal", s:fg, s:bg, "")
-call s:h("NonText", s:fg, "", "")
 
 call s:h("Cursor", s:bg, s:blue, "")
 call s:h("CursorColumn", "", s:cursor_line, "")
@@ -121,7 +121,8 @@ call s:h("WildMenu", s:fg, "", "")
 " Syntax colors {
 " Whitespace is defined in Neovim, not Vim.
 " See :help hl-Whitespace and :help hl-SpecialKey
-call s:h("Whitespace", s:comment_fg, "", "")
+call s:h("Whitespace", s:non_text, "", "")
+call s:h("NonText", s:non_text, "", "")
 call s:h("Comment", s:comment_fg, "", "")
 call s:h("Constant", s:cyan, "", "")
 call s:h("String", s:green, "", "")
