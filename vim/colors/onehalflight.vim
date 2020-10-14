@@ -119,6 +119,8 @@ call s:h("WildMenu", s:fg, "", "")
 
 
 " Syntax colors {
+" Whitespace is defined in Neovim, not Vim.
+" See :help hl-Whitespace and :help hl-SpecialKey
 call s:h("Whitespace", s:comment_fg, "", "")
 call s:h("Comment", s:comment_fg, "", "")
 call s:h("Constant", s:cyan, "", "")
