@@ -143,7 +143,7 @@ call s:h("Keyword", s:red, "", "")
 call s:h("Exception", s:purple, "", "")
 
 call s:h("PreProc", s:yellow, "", "")
-call s:h("Include", s:blue, "", "")
+call s:h("Include", s:purple, "", "")
 call s:h("Define", s:purple, "", "")
 call s:h("Macro", s:purple, "", "")
 call s:h("PreCondit", s:yellow, "", "")
