@@ -107,7 +107,7 @@ call s:h("ColorColumn", "", s:color_col, "")
 call s:h("Conceal", s:fg, "", "")
 call s:h("Directory", s:blue, "", "")
 call s:h("VertSplit", s:vertsplit, s:vertsplit, "")
-call s:h("Folded", s:fg, "", "")
+call s:h("Folded", s:comment_fg, "", "")
 call s:h("FoldColumn", s:fg, "", "")
 call s:h("SignColumn", s:fg, "", "")
 
