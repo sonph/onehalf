@@ -175,6 +175,11 @@ call s:h("GitGutterChangeDelete", s:red, s:gutter_bg, "")
 " Fugitive
 call s:h("diffAdded", s:green, "", "")
 call s:h("diffRemoved", s:red, "", "")
+" vim-signify
+call s:h("SignifySignAdd", s:green, s:gutter_bg, "")
+call s:h("SignifySignDelete", s:red, s:gutter_bg, "")
+call s:h("SignifySignChange", s:yellow, s:gutter_bg, "")
+call s:h("SignifySignChangeDelete", s:red, s:gutter_bg, "")
 " }
 
 
