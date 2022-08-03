@@ -14,6 +14,8 @@
 		"sideBarSectionHeader.foreground": "#383a42",
 		"statusBar.background": "#fafafa",
 		"statusBar.foreground": "#383a42",
+		"statusBar.noFolderBackground": "#fafafa",
+		"statusBar.noFolderForeground": "#383a42",
 		"panel.background": "#fafafa"
 	},
 	"tokenColors": "./OneHalfLight.tmTheme",
