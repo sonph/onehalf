@@ -75,8 +75,8 @@ call s:h("DiffChange", s:yellow, "", "")
 call s:h("DiffDelete", s:red, "", "")
 call s:h("DiffText", s:blue, "", "")
 
-call s:h("IncSearch", s:bg, s:yellow, "")
-call s:h("Search", s:bg, s:yellow, "")
+call s:h("IncSearch", s:white, s:red, "underline")
+call s:h("Search", s:white, s:red, "")
 
 call s:h("ErrorMsg", s:fg, "", "")
 call s:h("ModeMsg", s:fg, "", "")
@@ -85,7 +85,7 @@ call s:h("WarningMsg", s:red, "", "")
 call s:h("Question", s:purple, "", "")
 
 call s:h("Pmenu", s:bg, s:fg, "")
-call s:h("PmenuSel", s:fg, s:blue, "")
+call s:h("PmenuSel", s:comment_fg, s:gutter_bg, "")
 call s:h("PmenuSbar", "", s:selection, "")
 call s:h("PmenuThumb", "", s:fg, "")
 
@@ -107,8 +107,8 @@ call s:h("ColorColumn", "", s:color_col, "")
 call s:h("Conceal", s:fg, "", "")
 call s:h("Directory", s:blue, "", "")
 call s:h("VertSplit", s:vertsplit, s:vertsplit, "")
-call s:h("Folded", s:fg, "", "")
-call s:h("FoldColumn", s:fg, "", "")
+call s:h("Folded", s:comment_fg, "", "")
+call s:h("FoldColumn", s:comment_fg, "", "")
 call s:h("SignColumn", s:fg, "", "")
 
 call s:h("MatchParen", s:blue, "", "underline")
@@ -198,6 +198,13 @@ hi link gitcommitSelected gitcommitComment
 hi link gitcommitDiscardedArrow gitcommitDiscardedFile
 hi link gitcommitSelectedArrow gitcommitSelectedFile
 hi link gitcommitUnmergedArrow gitcommitUnmergedFile
+" }
+
+" Markdown {
+call s:h("mkdCode", s:green, "", "")
+call s:h("mkdLink", s:blue, "", "underline")
+call s:h("mkdURL", s:green, "", "underline")
+call s:h("mkdBlockQuote", s:comment_fg, "", "")
 " }
 
 " Fix colors in neovim terminal buffers {

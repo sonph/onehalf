@@ -24,9 +24,10 @@ let s:yellow      = { "gui": "#c18401", "cterm": "136" }
 let s:blue        = { "gui": "#0184bc", "cterm": "31" }
 let s:purple      = { "gui": "#a626a4", "cterm": "127" }
 let s:cyan        = { "gui": "#0997b3", "cterm": "31" }
-let s:white       = { "gui": "#fafafa", "cterm": "231" }
+let s:white       = { "gui": "#f3f3f3", "cterm": "231" }
+let s:text        = { "gui": "#444444", "cterm": "231" }
 
-let s:fg          = s:black
+let s:fg          = s:text
 let s:bg          = s:white
 
 let s:comment_fg  = { "gui": "#a0a1a7", "cterm": "247" }
@@ -75,8 +76,8 @@ call s:h("DiffChange", s:yellow, "", "")
 call s:h("DiffDelete", s:red, "", "")
 call s:h("DiffText", s:blue, "", "")
 
-call s:h("IncSearch", s:bg, s:yellow, "")
-call s:h("Search", s:bg, s:yellow, "")
+call s:h("IncSearch", s:white, s:red, "underline")
+call s:h("Search", s:white, s:red, "")
 
 call s:h("ErrorMsg", s:fg, "", "")
 call s:h("ModeMsg", s:fg, "", "")
@@ -85,7 +86,7 @@ call s:h("WarningMsg", s:red, "", "")
 call s:h("Question", s:purple, "", "")
 
 call s:h("Pmenu", s:fg, s:cursor_line, "")
-call s:h("PmenuSel", s:bg, s:blue, "")
+call s:h("PmenuSel", s:comment_fg, s:gutter_bg, "")
 call s:h("PmenuSbar", "", s:cursor_line, "")
 call s:h("PmenuThumb", "", s:comment_fg, "")
 
@@ -107,13 +108,13 @@ call s:h("ColorColumn", "", s:color_col, "")
 call s:h("Conceal", s:fg, "", "")
 call s:h("Directory", s:blue, "", "")
 call s:h("VertSplit", s:vertsplit, s:vertsplit, "")
-call s:h("Folded", s:fg, "", "")
-call s:h("FoldColumn", s:fg, "", "")
+call s:h("Folded", s:comment_fg, "", "")
+call s:h("FoldColumn", s:comment_fg, "", "")
 call s:h("SignColumn", s:fg, "", "")
 
 call s:h("MatchParen", s:blue, "", "underline")
 call s:h("SpecialKey", s:fg, "", "")
-call s:h("Title", s:green, "", "")
+call s:h("Title", s:black, "", "bold")
 call s:h("WildMenu", s:fg, "", "")
 " }
 
@@ -198,6 +199,13 @@ hi link gitcommitSelected gitcommitComment
 hi link gitcommitDiscardedArrow gitcommitDiscardedFile
 hi link gitcommitSelectedArrow gitcommitSelectedFile
 hi link gitcommitUnmergedArrow gitcommitUnmergedFile
+" }
+
+" Markdown {
+call s:h("mkdCode", s:green, "", "")
+call s:h("mkdLink", s:blue, "", "underline")
+call s:h("mkdURL", s:green, "", "underline")
+call s:h("mkdBlockQuote", s:comment_fg, "", "")
 " }
 
 " Fix colors in neovim terminal buffers {
