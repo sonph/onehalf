@@ -70,10 +70,10 @@ call s:h("CursorLine", "", s:cursor_line, "")
 call s:h("LineNr", s:gutter_fg, s:gutter_bg, "")
 call s:h("CursorLineNr", s:fg, "", "")
 
-call s:h("DiffAdd", s:green, "", "")
-call s:h("DiffChange", s:yellow, "", "")
-call s:h("DiffDelete", s:red, "", "")
-call s:h("DiffText", s:blue, "", "")
+call s:h("DiffAdd", s:black, s:green, "")
+call s:h("DiffChange", s:black, s:yellow, "")
+call s:h("DiffDelete", s:black, s:red, "")
+call s:h("DiffText", s:black, s:blue, "")
 
 call s:h("IncSearch", s:bg, s:yellow, "")
 call s:h("Search", s:bg, s:yellow, "")
@@ -175,6 +175,11 @@ call s:h("GitGutterChangeDelete", s:red, s:gutter_bg, "")
 " Fugitive
 call s:h("diffAdded", s:green, "", "")
 call s:h("diffRemoved", s:red, "", "")
+" vim-signify
+call s:h("SignifySignAdd", s:green, s:gutter_bg, "")
+call s:h("SignifySignDelete", s:red, s:gutter_bg, "")
+call s:h("SignifySignChange", s:yellow, s:gutter_bg, "")
+call s:h("SignifySignChangeDelete", s:red, s:gutter_bg, "")
 " }
 
 
